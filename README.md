@@ -20,7 +20,7 @@ I build end-to-end AI systems — from volumetric medical-image segmentation wit
 <a href="https://karananchan.github.io/"><img src="https://img.shields.io/badge/Portfolio-0A0A0B?style=flat-square&logo=githubpages&logoColor=C7F284&labelColor=0A0A0B" alt="Portfolio" /></a>
 <a href="https://linkedin.com/in/karan-anchan"><img src="https://img.shields.io/badge/LinkedIn-0A0A0B?style=flat-square&logo=linkedin&logoColor=C7F284&labelColor=0A0A0B" alt="LinkedIn" /></a>
 <a href="mailto:kar.anchan02@gmail.com"><img src="https://img.shields.io/badge/Email-0A0A0B?style=flat-square&logo=gmail&logoColor=C7F284&labelColor=0A0A0B" alt="Email" /></a>
-<a href="https://karananchan.github.io/CVKaranAnchan.pdf"><img src="https://img.shields.io/badge/CV-0A0A0B?style=flat-square&logo=readthedocs&logoColor=C7F284&labelColor=0A0A0B" alt="CV" /></a>
+<a href="CVKaranAnchan.pdf"><img src="https://img.shields.io/badge/CV-0A0A0B?style=flat-square&logo=readthedocs&logoColor=C7F284&labelColor=0A0A0B" alt="CV" /></a>
 
 <br clear="all"/>
 
