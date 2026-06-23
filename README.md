@@ -6,7 +6,7 @@
 
 ---
 
-<img align="right" width="280" src="https://raw.githubusercontent.com/KaranAnchan/KaranAnchan.github.io/main/images/portrait.png" alt="Karan Anchan" />
+<img align="right" width="280" src="github_karan.png" alt="Karan Anchan" />
 
 # Karan Anchan
 
