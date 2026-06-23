@@ -48,7 +48,7 @@ Built a Retrieval-Augmented Generation (RAG) pipeline for internal document retr
 - Developed a cosine-similarity feedback loop to monitor retrieval quality, reaching **90% answer accuracy**.
 - Processed and managed a database of **5,000+ educational documents** for automated student support.
 
-<img src="https://raw.githubusercontent.com/KaranAnchan/KaranAnchan.github.io/main/images/rag-pipeline.png" alt="RAG pipeline architecture" width="100%" />
+<!-- <img src="https://raw.githubusercontent.com/KaranAnchan/KaranAnchan.github.io/main/images/rag-pipeline.png" alt="RAG pipeline architecture" width="100%" /> -->
 
 > Fig. 01 — RAG architecture: retrieval, augmentation, generation, with guardrails, memory, and monitoring.
 
