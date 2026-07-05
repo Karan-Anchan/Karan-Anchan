@@ -62,7 +62,7 @@
 
 <br/><br/>
 
-<img src="assets/achievement.svg" width="460" alt="Achievement get! you read the whole profile." />
+<img src="assets/achievement.svg" width="530" alt="Achievement get! you read the whole profile." />
 
 <br/><br/>
 
