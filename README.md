@@ -13,23 +13,15 @@
 
 <sub>🎮 &nbsp;flavor on the surface &nbsp;·&nbsp; 🔬 &nbsp;science inside the folds — <em>click the ▸ panels as you go</em></sub>
 
-<br/><br/>
+</div>
 
 <img src="assets/divider.svg" width="900" alt="" />
 
-</div>
-
-<br/>
-
 ## <img src="assets/icon-flask.svg" width="26" align="top" alt="" /> &nbsp;model card — `karan-v3`
 
-<br/>
-
-<img align="right" width="230" src="assets/chai-pet.gif" alt="animated pixel chai-cup creature, steaming happily" />
+<img align="right" width="210" src="assets/chai-pet.gif" alt="animated pixel chai-cup creature, steaming happily" />
 
 *Every model ships with a card. This one is self-reported but honestly benchmarked.*
-
-<br/>
 
 | field | value |
 |---|---|
@@ -39,8 +31,6 @@
 | **alignment** | to measured baselines — vibes are not an eval |
 | **known limitations** | will re-run your experiment with 3 seeds before agreeing with it |
 | **intended use** | research collaborations · working-student roles · hard problems |
-
-<br/>
 
 <details>
 <summary>&nbsp;🔬 &nbsp;<b>full spec sheet</b> — the verifiable part</summary>
@@ -56,13 +46,9 @@
 
 </details>
 
-<br/>
-
 <div align="center">
 
 <a href="https://www.last.fm/user/KaranANchan22"><img src="https://lastfm-recently-played.vercel.app/api?user=KaranANchan22&count=3&width=500&header_style=compact&border_radius=12" alt="Recently played — live from Last.fm" /></a>
-
-<br/>
 
 <sub><code>the training soundtrack · live</code></sub>
 
@@ -70,32 +56,20 @@
 
 <!-- spotify direct widget (needs Premium) parked at karanchan02125.pythonanywhere.com — swap back anytime -->
 
-<br/>
-
-<div align="center"><img src="assets/divider.svg" width="900" alt="" /></div>
-
-<br/>
+<img src="assets/divider.svg" width="900" alt="" />
 
 ## <img src="assets/icon-pickaxe.svg" width="26" align="top" alt="" /> &nbsp;currently mining
 
-<br/>
-
 *Two active veins. The minecart runs daily.*
-
-<br/>
 
 <div align="center"><img src="assets/minecart.gif" width="720" alt="pixel minecart riding rails through a forest that becomes a glowing server room" /></div>
 
-<br/>
-
-<img align="right" width="150" src="assets/chest.png" alt="open minecraft chest, light spilling out" />
+<img align="right" width="140" src="assets/chest.png" alt="open minecraft chest, light spilling out" />
 
 | | | |
 |---|---|---|
 | 🟢 | **[rlpd-offline-to-online-rl](https://github.com/Karan-Anchan/rlpd-offline-to-online-rl)** | teaching humanoids to walk from old data — then letting them loose online |
 | 🔵 | **[edge-yolo26-deployment](https://github.com/Karan-Anchan/edge-yolo26-deployment)** | one detector, three runtimes, one question: who wins latency-per-watt? |
-
-<br/>
 
 <details>
 <summary>&nbsp;🔬 &nbsp;<b>run configs</b> — what's actually inside</summary>
@@ -114,21 +88,13 @@
 
 </details>
 
-<br/>
-
-<div align="center"><img src="assets/divider.svg" width="900" alt="" /></div>
-
-<br/>
+<img src="assets/divider.svg" width="900" alt="" />
 
 ## <img src="assets/icon-signal.svg" width="26" align="top" alt="" /> &nbsp;changelog
 
-<br/>
-
-<img align="right" width="175" src="assets/villager.png" alt="pixel villager scientist holding a glowing beaker" />
+<img align="right" width="160" src="assets/villager.png" alt="pixel villager scientist holding a glowing beaker" />
 
 *Version history of the author. Semantic-ish.*
-
-<br/>
 
 | | release | notes |
 |---|---|---|
@@ -138,21 +104,13 @@
 | <img src="assets/medal-rag.png" width="42" alt="" /> | `v2023.10` | **feat:** production RAG @ WiZdom Ed — 5k docs, 90% answer accuracy |
 | <img src="assets/medal-init.png" width="42" alt="" /> | `v2020.09` | **init:** B.E. Computer Science, first gradient descended |
 
-<br/>
-
-<div align="center"><img src="assets/divider.svg" width="900" alt="" /></div>
-
-<br/>
+<img src="assets/divider.svg" width="900" alt="" />
 
 ## <img src="assets/icon-map.svg" width="26" align="top" alt="" /> &nbsp;quest log · 2026
 
-<br/>
-
-<img align="right" width="190" src="assets/tree.png" alt="voxel oak tree" />
+<img align="right" width="170" src="assets/tree.png" alt="voxel oak tree" />
 
 *The season pass. Progress bars update as runs converge.*
-
-<br/>
 
 ```text
 [##########..............]  world-model RL on Crafter — DreamerV3, imagination ablations
@@ -161,8 +119,6 @@
 [##......................]  diffusion LM vs a matched AR twin
 [........................]  robotics VLA fine-tune (LIBERO) · n8n multi-agent capstone
 ```
-
-<br/>
 
 <details>
 <summary>&nbsp;🔬 &nbsp;<b>quest briefings</b> — papers behind each bar</summary>
@@ -178,44 +134,28 @@
 
 </details>
 
-<br/>
-
-<div align="center"><img src="assets/divider.svg" width="900" alt="" /></div>
-
-<br/>
+<img src="assets/divider.svg" width="900" alt="" />
 
 ## 🐍 &nbsp;the commit garden
 
-<br/>
-
 *A snake is released into my contribution graph every night at 04:00. It has never once been full.*
 
-<br/>
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Karan-Anchan/Karan-Anchan/output/snake.svg" width="880" alt="snake animation eating a year of commits" />
-
-</div>
-
-<br/>
+<div align="center"><img src="https://raw.githubusercontent.com/Karan-Anchan/Karan-Anchan/output/snake.svg" width="880" alt="snake animation eating a year of commits" /></div>
 
 <div align="center">
 
 <img src="assets/divider.svg" width="900" alt="" />
 
-<br/><br/>
+<br/>
 
 <img src="assets/stack.svg" width="900" alt="stack: python/pytorch core; transformers, mujoco, w&b research; onnx, tensorrt, webgpu systems; langchain, qdrant, n8n agents" />
 
-<br/><br/><br/>
+<br/><br/>
 
 <img src="assets/torch.svg" width="34" align="middle" alt="" />&nbsp;&nbsp;<img src="assets/achievement.svg" width="530" align="middle" alt="Achievement get! you read the whole profile." />&nbsp;&nbsp;<img src="assets/torch.svg" width="34" align="middle" alt="" />
 
-<br/><br/>
+<br/>
 
 <sub><code>no template survived contact with this readme · assembled by hand in freiburg</code></sub>
-
-<br/>
 
 </div>
