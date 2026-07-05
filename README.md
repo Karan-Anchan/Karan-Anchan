@@ -56,15 +56,19 @@
 
 </details>
 
-<!--
-spotify now-playing — enable once https://karanchan02125.pythonanywhere.com returns 200:
 <br/>
+
 <div align="center">
-<a href="https://karanchan02125.pythonanywhere.com/link"><img src="https://karanchan02125.pythonanywhere.com" alt="Now playing on Spotify" width="460" /></a>
+
+<a href="https://www.last.fm/user/KaranANchan22"><img src="https://lastfm-recently-played.vercel.app/api?user=KaranANchan22&count=3&width=500&header_style=compact&border_radius=12" alt="Recently played — live from Last.fm" /></a>
+
 <br/>
+
 <sub><code>the training soundtrack · live</code></sub>
+
 </div>
--->
+
+<!-- spotify direct widget (needs Premium) parked at karanchan02125.pythonanywhere.com — swap back anytime -->
 
 <br/>
 
