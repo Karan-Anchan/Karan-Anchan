@@ -9,36 +9,108 @@
 <a href="mailto:kar.anchan02@gmail.com"><img src="assets/btn-email.svg" width="196" alt="Email — kar.anchan02@gmail.com" /></a>&nbsp;
 <a href="https://karan-anchan.github.io/CVKaranAnchan.pdf"><img src="assets/btn-cv.svg" width="196" alt="CV as PDF" /></a>
 
+<br/><br/>
+
+<sub>🎮 &nbsp;flavor on the surface &nbsp;·&nbsp; 🔬 &nbsp;science inside the folds — <em>click the ▸ panels as you go</em></sub>
+
+<br/><br/>
+
 <img src="assets/divider.svg" width="900" alt="" />
 
 </div>
 
-## <img src="assets/icon-flask.svg" width="26" align="top" alt="" /> model card — `karan-v3`
+<br/>
+
+## <img src="assets/icon-flask.svg" width="26" align="top" alt="" /> &nbsp;model card — `karan-v3`
+
+<br/>
 
 <img align="right" width="230" src="assets/chai-pet.gif" alt="animated pixel chai-cup creature, steaming happily" />
 
+*Every model ships with a card. This one is self-reported but honestly benchmarked.*
+
+<br/>
+
 | field | value |
 |---|---|
-| **architecture** | curiosity-driven, chai-cooled, stubbornly empirical |
+| **architecture** | curiosity-driven · chai-cooled · stubbornly empirical |
 | **pretraining** | B.E. Computer Science (9.33/10) → production ML internship |
 | **fine-tuning** | M.Sc. Computer Science (AI) · University of Freiburg 🇩🇪 |
-| **context window** | two papers deep, twelve browser tabs wide |
 | **alignment** | to measured baselines — vibes are not an eval |
 | **known limitations** | will re-run your experiment with 3 seeds before agreeing with it |
 | **intended use** | research collaborations · working-student roles · hard problems |
 
-<br clear="right"/>
+<br/>
 
-## <img src="assets/icon-pickaxe.svg" width="26" align="top" alt="" /> currently mining
+<details>
+<summary>&nbsp;🔬 &nbsp;<b>full spec sheet</b> — the verifiable part</summary>
+
+<br/>
+
+- **M.Sc. Computer Science (AI)** — Albert-Ludwigs-Universität Freiburg, Apr 2025 → present. Deep learning, probabilistic graphical models, statistical pattern recognition, robot mechanics.
+- **B.E. Computer Science** — N.M.A.M. Institute of Technology, 2020 → 2024. GPA 9.33/10 (German equivalent 1,3).
+- **ML Intern** — WiZdom Ed, Oct 2023 → Oct 2024. Production RAG over 5,000+ documents (LangChain + ChromaDB); ingestion −40% via recursive splitting; cosine-similarity feedback loop → 90% answer accuracy.
+- **Certifications** — [MLOps Specialization, Duke](https://coursera.org/verify/specialization/BC9VRBWCQRU5) · [ML Specialization, Stanford/DeepLearning.AI](https://coursera.org/verify/specialization/JDYYP28JPJNZ)
+- **Languages** — English C2 · Hindi native · German A2 → B1
+- **Base of operations** — Freiburg im Breisgau, DE · CET
+
+</details>
+
+<br/>
+
+<div align="center"><img src="assets/divider.svg" width="900" alt="" /></div>
+
+<br/>
+
+## <img src="assets/icon-pickaxe.svg" width="26" align="top" alt="" /> &nbsp;currently mining
+
+<br/>
+
+*Two active veins. The minecart runs daily.*
+
+<br/>
 
 <div align="center"><img src="assets/minecart.gif" width="720" alt="pixel minecart riding rails through a forest that becomes a glowing server room" /></div>
 
+<br/>
+
 | | | |
 |---|---|---|
-| 🟢 | **[rlpd-offline-to-online-rl](https://github.com/Karan-Anchan/rlpd-offline-to-online-rl)** | RLPD (ICML '23), rebuilt and pushed onto Humanoid-v5 — symmetric sampling, LayerNorm critics, UTD 20 · *lab project, team of 3* |
-| 🔵 | **[edge-yolo26-deployment](https://github.com/Karan-Anchan/edge-yolo26-deployment)** | one NMS-free detector shipped to TensorRT INT8, ONNX CPU and WebGPU — who wins latency-per-watt under a ≤2% mAP budget? |
+| 🟢 | **[rlpd-offline-to-online-rl](https://github.com/Karan-Anchan/rlpd-offline-to-online-rl)** | teaching humanoids to walk from old data — then letting them loose online |
+| 🔵 | **[edge-yolo26-deployment](https://github.com/Karan-Anchan/edge-yolo26-deployment)** | one detector, three runtimes, one question: who wins latency-per-watt? |
 
-## <img src="assets/icon-signal.svg" width="26" align="top" alt="" /> changelog
+<br/>
+
+<details>
+<summary>&nbsp;🔬 &nbsp;<b>run configs</b> — what's actually inside</summary>
+
+<br/>
+
+**rlpd-offline-to-online-rl** · *lab project, team of 3*
+- Reproduction & extension of RLPD ([Ball et al., ICML 2023](https://arxiv.org/abs/2302.02948)) in PyTorch with Minari offline datasets
+- Symmetric 50/50 offline/online sampling · LayerNorm critics · ensemble of 10 · UTD 20
+- Reproduced across three MuJoCo locomotion suites, extended to Humanoid-v5 with ablations over sampling ratio, ensemble size and update-to-data ratio
+
+**edge-yolo26-deployment**
+- NMS-free YOLO26 fine-tune shipped to **TensorRT INT8** (RTX 5070), **ONNX Runtime QDQ INT8** (Ryzen 7700) and **WebGPU** in-browser
+- MLPerf-style methodology: p50/p95/p99 latency, joules per frame, accuracy deltas under a ≤2% mAP budget
+- PTQ calibration pipeline + reproducible benchmark harness
+
+</details>
+
+<br/>
+
+<div align="center"><img src="assets/divider.svg" width="900" alt="" /></div>
+
+<br/>
+
+## <img src="assets/icon-signal.svg" width="26" align="top" alt="" /> &nbsp;changelog
+
+<br/>
+
+*Version history of the author. Semantic-ish.*
+
+<br/>
 
 | | release | notes |
 |---|---|---|
@@ -48,7 +120,19 @@
 | <img src="assets/medal-rag.png" width="42" alt="" /> | `v2023.10` | **feat:** production RAG @ WiZdom Ed — 5k docs, 90% answer accuracy |
 | <img src="assets/medal-init.png" width="42" alt="" /> | `v2020.09` | **init:** B.E. Computer Science, first gradient descended |
 
-## <img src="assets/icon-map.svg" width="26" align="top" alt="" /> quest log · 2026
+<br/>
+
+<div align="center"><img src="assets/divider.svg" width="900" alt="" /></div>
+
+<br/>
+
+## <img src="assets/icon-map.svg" width="26" align="top" alt="" /> &nbsp;quest log · 2026
+
+<br/>
+
+*The season pass. Progress bars update as runs converge.*
+
+<br/>
 
 ```text
 [##########..............]  world-model RL on Crafter — DreamerV3, imagination ablations
@@ -58,16 +142,40 @@
 [........................]  robotics VLA fine-tune (LIBERO) · n8n multi-agent capstone
 ```
 
+<br/>
+
+<details>
+<summary>&nbsp;🔬 &nbsp;<b>quest briefings</b> — papers behind each bar</summary>
+
+<br/>
+
+- **World-model RL** — DreamerV3 ([arXiv 2301.04104](https://arxiv.org/abs/2301.04104)) on Crafter at 1M steps; ablate imagination horizon (H = 5/15/30) and categorical vs Gaussian latents; render dream-vs-reality rollouts
+- **GRPO / RLVR** — verifiable-reward post-training on math ([DeepSeekMath, arXiv 2402.03300](https://arxiv.org/abs/2402.03300)); measure accuracy vs samples-at-inference
+- **Efficient inference** — GPTQ/AWQ × speculative decoding × KV-cache compression; a serving-throughput Pareto on one GPU
+- **Diffusion LM** — masked-diffusion ([arXiv 2406.07524](https://arxiv.org/abs/2406.07524)) vs a compute-matched autoregressive twin
+- **Robotics VLA** — SmolVLA/OpenVLA behaviour cloning on LIBERO; discrete-token vs flow-matching action heads
+- **Agentic capstone** — n8n supervisor + RAG + tool-use pipeline with pass^k reliability evals
+
+</details>
+
+<br/>
+
 <div align="center">
+
+<img src="assets/divider.svg" width="900" alt="" />
+
+<br/><br/>
 
 <img src="assets/stack.svg" width="900" alt="stack: python/pytorch core; transformers, mujoco, w&b research; onnx, tensorrt, webgpu systems; langchain, qdrant, n8n agents" />
 
-<br/><br/>
+<br/><br/><br/>
 
 <img src="assets/achievement.svg" width="530" alt="Achievement get! you read the whole profile." />
 
 <br/><br/>
 
 <sub><code>no template survived contact with this readme · assembled by hand in freiburg</code></sub>
+
+<br/>
 
 </div>
