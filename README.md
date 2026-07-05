@@ -19,7 +19,7 @@
 
 ## <img src="assets/icon-flask.svg" width="26" align="top" alt="" /> &nbsp;model card — `karan-v3`
 
-<img align="right" width="300" src="assets/chai-pet.gif" alt="animated pixel chai-cup creature, steaming happily" />
+<img align="right" width="220" src="assets/chai-pet-bleed.gif" alt="animated pixel chai-cup creature, steaming happily" />
 
 *Every model ships with a card. This one is self-reported but honestly benchmarked.*
 
@@ -64,7 +64,7 @@
 
 <div align="center"><img src="assets/minecart.gif" width="720" alt="pixel minecart riding rails through a forest that becomes a glowing server room" /></div>
 
-<img align="right" width="230" src="assets/chest.png" alt="open minecraft chest, light spilling out" />
+<img align="right" width="250" src="assets/chest-bleed.png" alt="open minecraft chest, light spilling out" />
 
 | | | |
 |---|---|---|
@@ -92,7 +92,7 @@
 
 ## <img src="assets/icon-signal.svg" width="26" align="top" alt="" /> &nbsp;changelog
 
-<img align="right" width="245" src="assets/villager.png" alt="pixel villager scientist holding a glowing beaker" />
+<img align="right" width="178" src="assets/villager-bleed.png" alt="pixel villager scientist holding a glowing beaker" />
 
 *Version history of the author. Semantic-ish.*
 
@@ -108,7 +108,7 @@
 
 ## <img src="assets/icon-map.svg" width="26" align="top" alt="" /> &nbsp;quest log · 2026
 
-<img align="right" width="265" src="assets/tree.png" alt="voxel oak tree" />
+<img align="right" width="216" src="assets/tree-bleed.png" alt="voxel oak tree" />
 
 *The season pass. Progress bars update as runs converge.*
 
