@@ -4,10 +4,10 @@
 
 <br/><br/>
 
-**[▸ portfolio](https://karan-anchan.github.io/)** &nbsp;·&nbsp;
-**[▸ linkedin](https://linkedin.com/in/karan-anchan)** &nbsp;·&nbsp;
-**[▸ email](mailto:kar.anchan02@gmail.com)** &nbsp;·&nbsp;
-**[▸ cv](https://karan-anchan.github.io/CVKaranAnchan.pdf)**
+<a href="https://karan-anchan.github.io/"><img src="assets/btn-portfolio.svg" width="196" alt="Portfolio — karan-anchan.github.io" /></a>&nbsp;
+<a href="https://linkedin.com/in/karan-anchan"><img src="assets/btn-linkedin.svg" width="196" alt="LinkedIn — karan-anchan" /></a>&nbsp;
+<a href="mailto:kar.anchan02@gmail.com"><img src="assets/btn-email.svg" width="196" alt="Email — kar.anchan02@gmail.com" /></a>&nbsp;
+<a href="https://karan-anchan.github.io/CVKaranAnchan.pdf"><img src="assets/btn-cv.svg" width="196" alt="CV as PDF" /></a>
 
 <img src="assets/divider.svg" width="900" alt="" />
 
@@ -15,7 +15,7 @@
 
 ## <img src="assets/icon-flask.svg" width="26" align="top" alt="" /> model card — `karan-v3`
 
-<img align="right" width="150" src="assets/chai-pet.gif" alt="animated pixel chai-cup creature, steaming happily" />
+<img align="right" width="230" src="assets/chai-pet.gif" alt="animated pixel chai-cup creature, steaming happily" />
 
 | field | value |
 |---|---|
@@ -31,7 +31,7 @@
 
 ## <img src="assets/icon-pickaxe.svg" width="26" align="top" alt="" /> currently mining
 
-<div align="center"><img src="assets/minecart.gif" width="900" alt="pixel minecart riding rails through a forest that becomes a glowing server room" /></div>
+<div align="center"><img src="assets/minecart.gif" width="720" alt="pixel minecart riding rails through a forest that becomes a glowing server room" /></div>
 
 | | | |
 |---|---|---|
