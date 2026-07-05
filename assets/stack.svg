@@ -1,0 +1,52 @@
+<svg width="900" height="230" viewBox="0 0 900 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="s" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="900" y2="0" spreadMethod="reflect">
+      <stop offset="0" stop-color="#c7f284"/><stop offset="0.25" stop-color="#67e8f9"/>
+      <stop offset="0.5" stop-color="#c4b5fd"/><stop offset="0.75" stop-color="#f9a8d4"/>
+      <stop offset="1" stop-color="#fbbf24"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1800 0" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+    <clipPath id="sp"><rect width="900" height="230" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#sp)" font-family="'Courier New', monospace">
+    <rect width="900" height="230" fill="#09090b"/>
+    <ellipse cx="450" cy="250" rx="420" ry="120" fill="#c7f284" opacity="0.04"/>
+
+    <!-- column: core -->
+    <text x="40" y="42" font-size="13" font-weight="bold" letter-spacing="3" fill="#c7f284">CORE</text>
+    <g font-size="13" fill="#d4d4d8">
+      <text x="40" y="72">python</text><text x="40" y="96">pytorch</text><text x="40" y="120">c++ / sql</text><text x="40" y="144">typescript</text>
+    </g>
+    <g fill="#c7f284">
+      <rect x="40" y="158" width="0" height="4" rx="2"><animate attributeName="width" from="0" to="150" dur="1.4s" fill="freeze"/></rect>
+    </g>
+    <text x="40" y="186" font-size="10" letter-spacing="1" fill="#71717a">confidence: high</text>
+
+    <!-- column: research -->
+    <text x="260" y="42" font-size="13" font-weight="bold" letter-spacing="3" fill="#67e8f9">RESEARCH</text>
+    <g font-size="13" fill="#d4d4d8">
+      <text x="260" y="72">transformers</text><text x="260" y="96">mujoco · gym</text><text x="260" y="120">w&amp;b · mlflow</text><text x="260" y="144">monai · peft</text>
+    </g>
+    <rect x="260" y="158" width="0" height="4" rx="2" fill="#67e8f9"><animate attributeName="width" from="0" to="132" dur="1.4s" begin="0.2s" fill="freeze"/></rect>
+    <text x="260" y="186" font-size="10" letter-spacing="1" fill="#71717a">confidence: high</text>
+
+    <!-- column: systems -->
+    <text x="480" y="42" font-size="13" font-weight="bold" letter-spacing="3" fill="#c4b5fd">SYSTEMS</text>
+    <g font-size="13" fill="#d4d4d8">
+      <text x="480" y="72">onnx · tensorrt</text><text x="480" y="96">docker · ci/cd</text><text x="480" y="120">webgpu</text><text x="480" y="144">cuda (learning)</text>
+    </g>
+    <rect x="480" y="158" width="0" height="4" rx="2" fill="#c4b5fd"><animate attributeName="width" from="0" to="104" dur="1.4s" begin="0.4s" fill="freeze"/></rect>
+    <text x="480" y="186" font-size="10" letter-spacing="1" fill="#71717a">confidence: rising</text>
+
+    <!-- column: agents -->
+    <text x="700" y="42" font-size="13" font-weight="bold" letter-spacing="3" fill="#f9a8d4">AGENTS</text>
+    <g font-size="13" fill="#d4d4d8">
+      <text x="700" y="72">langchain</text><text x="700" y="96">chroma · qdrant</text><text x="700" y="120">n8n</text><text x="700" y="144">mcp (learning)</text>
+    </g>
+    <rect x="700" y="158" width="0" height="4" rx="2" fill="#f9a8d4"><animate attributeName="width" from="0" to="96" dur="1.4s" begin="0.6s" fill="freeze"/></rect>
+    <text x="700" y="186" font-size="10" letter-spacing="1" fill="#71717a">confidence: rising</text>
+
+    <rect x="40" y="205" width="820" height="1" fill="url(#s)" opacity="0.5"/>
+    <rect x="0.5" y="0.5" width="899" height="229" rx="16" stroke="#ffffff" stroke-opacity="0.12" fill="none"/>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg width="460" height="72" viewBox="0 0 460 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="a" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="460" y2="0" spreadMethod="reflect">
+      <stop offset="0" stop-color="#fbbf24"/><stop offset="0.5" stop-color="#f9a8d4"/><stop offset="1" stop-color="#fbbf24"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="920 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <clipPath id="ap"><rect width="460" height="72" rx="12"/></clipPath>
+  </defs>
+  <g clip-path="url(#ap)">
+    <rect width="460" height="72" fill="#09090b"/>
+    <!-- pixel trophy -->
+    <g transform="translate(18, 12) scale(3.6)" shape-rendering="crispEdges" fill="#fbbf24">
+      <rect x="2" y="1" width="9" height="1"/><rect x="2" y="2" width="9" height="3"/>
+      <rect x="0" y="2" width="2" height="2"/><rect x="11" y="2" width="2" height="2"/>
+      <rect x="3" y="5" width="7" height="1"/><rect x="5" y="6" width="3" height="2"/>
+      <rect x="3" y="9" width="7" height="1"/><rect x="2" y="10" width="9" height="1"/>
+      <animate attributeName="opacity" values="1;0.75;1" dur="2.4s" repeatCount="indefinite"/>
+    </g>
+    <text x="82" y="32" font-family="'Courier New', monospace" font-size="16" font-weight="bold" fill="url(#a)">Achievement Get!</text>
+    <text x="82" y="52" font-family="'Courier New', monospace" font-size="12" fill="#71717a">you read the whole profile. the hiring signal is mutual.</text>
+    <rect x="0.5" y="0.5" width="459" height="71" rx="12" stroke="#fbbf24" stroke-opacity="0.35" fill="none"/>
+  </g>
+</svg>
