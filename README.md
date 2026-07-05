@@ -15,7 +15,7 @@
 
 ## <img src="assets/icon-flask.svg" width="26" align="top" alt="" /> model card — `karan-v3`
 
-<img align="right" width="110" src="assets/avatar.png" alt="pixel avatar of Karan holding a chai" />
+<img align="right" width="150" src="assets/chai-pet.gif" alt="animated pixel chai-cup creature, steaming happily" />
 
 | field | value |
 |---|---|
@@ -31,6 +31,8 @@
 
 ## <img src="assets/icon-pickaxe.svg" width="26" align="top" alt="" /> currently mining
 
+<div align="center"><img src="assets/minecart.gif" width="900" alt="pixel minecart riding rails through a forest that becomes a glowing server room" /></div>
+
 | | | |
 |---|---|---|
 | 🟢 | **[rlpd-offline-to-online-rl](https://github.com/Karan-Anchan/rlpd-offline-to-online-rl)** | RLPD (ICML '23), rebuilt and pushed onto Humanoid-v5 — symmetric sampling, LayerNorm critics, UTD 20 · *lab project, team of 3* |
@@ -38,13 +40,13 @@
 
 ## <img src="assets/icon-signal.svg" width="26" align="top" alt="" /> changelog
 
-```diff
-+ v2026.07  feat: humanoids learn to walk from offline data (seed 2 remains hostile)
-+ v2026.06  feat: detector running in a browser tab via WebGPU
-+ v2025.04  major: relocated to Freiburg — M.Sc. CS (AI), Albert-Ludwigs-Universität
-+ v2023.10  feat: production RAG @ WiZdom Ed — 5k docs, 90% answer accuracy
-+ v2020.09  init: B.E. Computer Science, first gradient descended
-```
+| | release | notes |
+|---|---|---|
+| <img src="assets/medal-rlpd.png" width="42" alt="" /> | `v2026.07` | **feat:** humanoids learn to walk from offline data *(seed 2 remains hostile)* |
+| <img src="assets/medal-yolo.png" width="42" alt="" /> | `v2026.06` | **feat:** detector running in a browser tab via WebGPU |
+| <img src="assets/medal-msc.png" width="42" alt="" /> | `v2025.04` | **major:** relocated to Freiburg — M.Sc. CS (AI), Albert-Ludwigs-Universität |
+| <img src="assets/medal-rag.png" width="42" alt="" /> | `v2023.10` | **feat:** production RAG @ WiZdom Ed — 5k docs, 90% answer accuracy |
+| <img src="assets/medal-init.png" width="42" alt="" /> | `v2020.09` | **init:** B.E. Computer Science, first gradient descended |
 
 ## <img src="assets/icon-map.svg" width="26" align="top" alt="" /> quest log · 2026
 
