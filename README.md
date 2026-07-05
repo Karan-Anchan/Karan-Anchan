@@ -56,6 +56,16 @@
 
 </details>
 
+<!--
+spotify now-playing — enable once https://karanchan02125.pythonanywhere.com returns 200:
+<br/>
+<div align="center">
+<a href="https://karanchan02125.pythonanywhere.com/link"><img src="https://karanchan02125.pythonanywhere.com" alt="Now playing on Spotify" width="460" /></a>
+<br/>
+<sub><code>the training soundtrack · live</code></sub>
+</div>
+-->
+
 <br/>
 
 <div align="center"><img src="assets/divider.svg" width="900" alt="" /></div>
@@ -73,6 +83,8 @@
 <div align="center"><img src="assets/minecart.gif" width="720" alt="pixel minecart riding rails through a forest that becomes a glowing server room" /></div>
 
 <br/>
+
+<img align="right" width="150" src="assets/chest.png" alt="open minecraft chest, light spilling out" />
 
 | | | |
 |---|---|---|
@@ -108,7 +120,7 @@
 
 <br/>
 
-<img align="right" width="120" src="assets/blocks.svg" alt="" />
+<img align="right" width="175" src="assets/villager.png" alt="pixel villager scientist holding a glowing beaker" />
 
 *Version history of the author. Semantic-ish.*
 
@@ -132,7 +144,7 @@
 
 <br/>
 
-<img align="right" width="140" src="assets/tree.svg" alt="" />
+<img align="right" width="190" src="assets/tree.png" alt="voxel oak tree" />
 
 *The season pass. Progress bars update as runs converge.*
 
