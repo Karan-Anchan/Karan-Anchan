@@ -108,6 +108,8 @@
 
 <br/>
 
+<img align="right" width="120" src="assets/blocks.svg" alt="" />
+
 *Version history of the author. Semantic-ish.*
 
 <br/>
@@ -129,6 +131,8 @@
 ## <img src="assets/icon-map.svg" width="26" align="top" alt="" /> &nbsp;quest log · 2026
 
 <br/>
+
+<img align="right" width="140" src="assets/tree.svg" alt="" />
 
 *The season pass. Progress bars update as runs converge.*
 
@@ -160,6 +164,26 @@
 
 <br/>
 
+<div align="center"><img src="assets/divider.svg" width="900" alt="" /></div>
+
+<br/>
+
+## 🐍 &nbsp;the commit garden
+
+<br/>
+
+*A snake is released into my contribution graph every night at 04:00. It has never once been full.*
+
+<br/>
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Karan-Anchan/Karan-Anchan/output/snake.svg" width="880" alt="snake animation eating a year of commits" />
+
+</div>
+
+<br/>
+
 <div align="center">
 
 <img src="assets/divider.svg" width="900" alt="" />
@@ -170,7 +194,7 @@
 
 <br/><br/><br/>
 
-<img src="assets/achievement.svg" width="530" alt="Achievement get! you read the whole profile." />
+<img src="assets/torch.svg" width="34" align="middle" alt="" />&nbsp;&nbsp;<img src="assets/achievement.svg" width="530" align="middle" alt="Achievement get! you read the whole profile." />&nbsp;&nbsp;<img src="assets/torch.svg" width="34" align="middle" alt="" />
 
 <br/><br/>
 
