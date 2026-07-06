@@ -19,7 +19,7 @@
 
 ## <img src="assets/icon-flask.svg" width="26" align="top" alt="" /> &nbsp;model card — `karan-v3`
 
-<img align="right" width="145" src="assets/chai-pet-bleed.gif" alt="animated pixel chai-cup creature, steaming happily" />
+<img align="left" width="145" src="assets/chai-pet-bleed.gif" alt="animated pixel chai-cup creature, steaming happily" />
 
 *Every model ships with a card. This one is self-reported but honestly benchmarked.*
 
@@ -64,7 +64,7 @@
 
 <div align="center"><img src="assets/minecart.gif" width="720" alt="pixel minecart riding rails through a forest that becomes a glowing server room" /></div>
 
-<img align="right" width="153" src="assets/chest-bleed.png" alt="open minecraft chest, light spilling out" />
+<img align="right" width="147" src="assets/chest-bleed.png" alt="open minecraft chest, light spilling out" />
 
 | | | |
 |---|---|---|
@@ -92,7 +92,7 @@
 
 ## <img src="assets/icon-signal.svg" width="26" align="top" alt="" /> &nbsp;changelog
 
-<img align="right" width="125" src="assets/villager-bleed.png" alt="pixel villager scientist holding a glowing beaker" />
+<img align="left" width="128" src="assets/villager-bleed.png" alt="pixel villager scientist holding a glowing beaker" />
 
 *Version history of the author. Semantic-ish.*
 
