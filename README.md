@@ -3,6 +3,7 @@
 <img src="assets/header.svg" width="900" alt="Karan Anchan — AI researcher & engineer, Freiburg. curiosity over compute; reproduce first, believe later." />
 
 <br/>
+<br/>
 
 <a href="https://karan-anchan.github.io/"><img src="assets/btn-portfolio.svg?v=2" width="160" alt="Portfolio — karan-anchan.github.io" /></a>&nbsp;
 <a href="https://linkedin.com/in/karan-anchan"><img src="assets/btn-linkedin.svg?v=2" width="160" alt="LinkedIn — karan-anchan" /></a>&nbsp;
