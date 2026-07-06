@@ -60,11 +60,11 @@
 
 ## <img src="assets/icon-pickaxe.svg" width="26" align="top" alt="" /> &nbsp;currently mining
 
-*Two active veins. The minecart runs daily.*
-
 <div align="center"><img src="assets/minecart.gif" width="720" alt="pixel minecart riding rails through a forest that becomes a glowing server room" /></div>
 
 <img align="right" width="105" src="assets/chest-bleed.png" alt="open minecraft chest, light spilling out" />
+
+*Two active veins. The minecart runs daily.*
 
 | | | |
 |---|---|---|
