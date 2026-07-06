@@ -2,8 +2,12 @@ name: snake
 
 on:
   schedule:
-    - cron: "0 4 * * *"
+    # off-peak minutes; top-of-hour crons on GitHub get delayed/skipped under load
+    - cron: "23 2 * * *"
+    - cron: "23 14 * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
 
 permissions:
   contents: write

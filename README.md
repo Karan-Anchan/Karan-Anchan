@@ -2,14 +2,14 @@
 
 <img src="assets/header.svg" width="900" alt="Karan Anchan — AI researcher & engineer, Freiburg. curiosity over compute; reproduce first, believe later." />
 
-<br/><br/>
+<br/>
 
 <a href="https://karan-anchan.github.io/"><img src="assets/btn-portfolio.svg?v=2" width="160" alt="Portfolio — karan-anchan.github.io" /></a>&nbsp;
 <a href="https://linkedin.com/in/karan-anchan"><img src="assets/btn-linkedin.svg?v=2" width="160" alt="LinkedIn — karan-anchan" /></a>&nbsp;
 <a href="mailto:kar.anchan02@gmail.com"><img src="assets/btn-email.svg?v=2" width="160" alt="Email — kar.anchan02@gmail.com" /></a>&nbsp;
 <a href="https://karan-anchan.github.io/CVKaranAnchan.pdf"><img src="assets/btn-cv.svg?v=2" width="160" alt="CV as PDF" /></a>
 
-<br/><br/>
+<br/>
 
 <sub>🎮 &nbsp;flavor on the surface &nbsp;·&nbsp; 🔬 &nbsp;science inside the folds — <em>click the ▸ panels as you go</em></sub>
 
