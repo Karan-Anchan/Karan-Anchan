@@ -66,10 +66,9 @@
 
 *Two active veins. The minecart runs daily.*
 
-| | | |
-|---|---|---|
-| 🟢 | **[rlpd-offline-to-online-rl](https://github.com/Karan-Anchan/rlpd-offline-to-online-rl)** | teaching humanoids to walk from old data — then letting them loose online |
-| 🔵 | **[edge-yolo26-deployment](https://github.com/Karan-Anchan/edge-yolo26-deployment)** | one detector, three runtimes, one question: who wins latency-per-watt? |
+🟢 &nbsp;**[rlpd-offline-to-online-rl](https://github.com/Karan-Anchan/rlpd-offline-to-online-rl)** — teaching humanoids to walk from old data, then letting them loose online
+
+🔵 &nbsp;**[edge-yolo26-deployment](https://github.com/Karan-Anchan/edge-yolo26-deployment)** — one detector, three runtimes, one question: who wins latency-per-watt?
 
 <details>
 <summary>&nbsp;🔬 &nbsp;<b>run configs</b> — what's actually inside</summary>
