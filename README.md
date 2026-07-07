@@ -93,17 +93,19 @@
 
 ## <img src="assets/icon-signal.svg" width="26" align="top" alt="" /> &nbsp;changelog
 
-<img align="left" width="128" src="assets/villager-bleed.png" alt="pixel villager scientist holding a glowing beaker" />
-
 *Version history of the author. Semantic-ish.*
 
-| | release | notes |
-|---|---|---|
-| <img src="assets/medal-rlpd.png" width="42" alt="" /> | `v2026.07` | **feat:** humanoids learn to walk from offline data *(seed 2 remains hostile)* |
-| <img src="assets/medal-yolo.png" width="42" alt="" /> | `v2026.06` | **feat:** one detector → GPU · CPU · browser, benchmarked — FP8 560 FPS, live via WebGPU |
-| <img src="assets/medal-msc.png" width="42" alt="" /> | `v2025.04` | **major:** relocated to Freiburg — M.Sc. CS (AI), Albert-Ludwigs-Universität |
-| <img src="assets/medal-rag.png" width="42" alt="" /> | `v2023.10` | **feat:** production RAG @ WiZdom Ed — 5k docs, 90% answer accuracy |
-| <img src="assets/medal-init.png" width="42" alt="" /> | `v2020.09` | **init:** B.E. Computer Science, first gradient descended |
+<table>
+<tr>
+<td rowspan="6" width="150" align="center" valign="middle"><img width="124" src="assets/villager-bleed.png" alt="pixel villager scientist holding a glowing beaker" /></td>
+<th></th><th>release</th><th>notes</th>
+</tr>
+<tr><td><img src="assets/medal-rlpd.png" width="42" alt="" /></td><td><code>v2026.07</code></td><td><b>feat:</b> humanoids learn to walk from offline data <em>(seed 2 remains hostile)</em></td></tr>
+<tr><td><img src="assets/medal-yolo.png" width="42" alt="" /></td><td><code>v2026.06</code></td><td><b>feat:</b> one detector → GPU · CPU · browser, benchmarked — FP8 560 FPS, live via WebGPU</td></tr>
+<tr><td><img src="assets/medal-msc.png" width="42" alt="" /></td><td><code>v2025.04</code></td><td><b>major:</b> relocated to Freiburg — M.Sc. CS (AI), Albert-Ludwigs-Universität</td></tr>
+<tr><td><img src="assets/medal-rag.png" width="42" alt="" /></td><td><code>v2023.10</code></td><td><b>feat:</b> production RAG @ WiZdom Ed — 5k docs, 90% answer accuracy</td></tr>
+<tr><td><img src="assets/medal-init.png" width="42" alt="" /></td><td><code>v2020.09</code></td><td><b>init:</b> B.E. Computer Science, first gradient descended</td></tr>
+</table>
 
 <img src="assets/divider.svg" width="900" alt="" />
 
