@@ -69,7 +69,7 @@
 
 🟢 &nbsp;**[rlpd-offline-to-online-rl](https://github.com/Karan-Anchan/rlpd-offline-to-online-rl)** — teaching humanoids to walk from old data, then letting them loose online
 
-🔵 &nbsp;**[edge-yolo26-deployment](https://github.com/Karan-Anchan/edge-yolo26-deployment)** — one detector, three runtimes, one question: who wins latency-per-watt?
+🔵 &nbsp;**[edge-yolo26-deployment](https://github.com/Karan-Anchan/edge-yolo26-deployment)** · **[live demo ▸](https://karan-anchan.github.io/edge-yolo26-deployment/)** — one detector, three runtimes; the latency-per-watt answer turned out to be **FP16/FP8, not INT8**. Detection runs in your browser tab (webcam mode next)
 
 <details>
 <summary>&nbsp;🔬 &nbsp;<b>run configs</b> — what's actually inside</summary>
@@ -81,10 +81,11 @@
 - Symmetric 50/50 offline/online sampling · LayerNorm critics · ensemble of 10 · UTD 20
 - Reproduced across three MuJoCo locomotion suites, extended to Humanoid-v5 with ablations over sampling ratio, ensemble size and update-to-data ratio
 
-**edge-yolo26-deployment**
-- NMS-free YOLO26 fine-tune shipped to **TensorRT INT8** (RTX 5070), **ONNX Runtime QDQ INT8** (Ryzen 7700) and **WebGPU** in-browser
-- MLPerf-style methodology: p50/p95/p99 latency, joules per frame, accuracy deltas under a ≤2% mAP budget
-- PTQ calibration pipeline + reproducible benchmark harness
+**edge-yolo26-deployment** · *shipped · [live WebGPU demo](https://karan-anchan.github.io/edge-yolo26-deployment/)*
+- NMS-free YOLO26 fine-tune (SKU-110K dense shelves, mAP@50-95 **0.572**) shipped as **one ONNX graph → TensorRT** (RTX 5070), **ONNX Runtime** (Ryzen 7700) and **WebGPU** in-browser
+- MLPerf-style p50/p95 latency + NVML power. Verdict: **FP8 = 560 FPS**, **FP16 wins latency-per-watt** (9.3 FPS/W, near-lossless), and **INT8 is dominated on Blackwell** — slower *and* hungrier than both
+- The two "INT8"s disagree ~8× on accuracy loss (TensorRT −5.65% vs ONNX Runtime −0.72%) — closed with per-channel quantization + an FP16 detection head
+- Detection runs 100% client-side; the frame never leaves the browser
 
 </details>
 
@@ -99,7 +100,7 @@
 | | release | notes |
 |---|---|---|
 | <img src="assets/medal-rlpd.png" width="42" alt="" /> | `v2026.07` | **feat:** humanoids learn to walk from offline data *(seed 2 remains hostile)* |
-| <img src="assets/medal-yolo.png" width="42" alt="" /> | `v2026.06` | **feat:** detector running in a browser tab via WebGPU |
+| <img src="assets/medal-yolo.png" width="42" alt="" /> | `v2026.06` | **feat:** one detector → GPU · CPU · browser, benchmarked — FP8 560 FPS, live via WebGPU |
 | <img src="assets/medal-msc.png" width="42" alt="" /> | `v2025.04` | **major:** relocated to Freiburg — M.Sc. CS (AI), Albert-Ludwigs-Universität |
 | <img src="assets/medal-rag.png" width="42" alt="" /> | `v2023.10` | **feat:** production RAG @ WiZdom Ed — 5k docs, 90% answer accuracy |
 | <img src="assets/medal-init.png" width="42" alt="" /> | `v2020.09` | **init:** B.E. Computer Science, first gradient descended |
