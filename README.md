@@ -143,7 +143,10 @@
 
 *A snake is released into my contribution graph every night at 04:00. It has never once been full.*
 
-<div align="center"><img src="https://raw.githubusercontent.com/Karan-Anchan/Karan-Anchan/output/snake.svg" width="880" alt="snake animation eating a year of commits" /></div>
+<div align="center"><picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Karan-Anchan/Karan-Anchan/output/snake.svg" />
+<img src="https://raw.githubusercontent.com/Karan-Anchan/Karan-Anchan/output/snake-light.svg" width="880" alt="snake animation eating a year of commits" />
+</picture></div>
 
 <div align="center">
 
