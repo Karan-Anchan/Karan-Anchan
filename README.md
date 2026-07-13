@@ -24,6 +24,10 @@
 
 <div align="center"><img src="assets/knight.gif" width="520" alt="animated minecraft knight with cape and diamond sword, walking out of a castle courtyard" /></div>
 
+<br/>
+
+<div align="center">
+
 | field | value |
 |---|---|
 | **architecture** | curiosity-driven · chai-cooled · stubbornly empirical |
@@ -32,6 +36,8 @@
 | **alignment** | to measured baselines — vibes are not an eval |
 | **known limitations** | will re-run your experiment with 3 seeds before agreeing with it |
 | **intended use** | research collaborations · working-student roles · hard problems |
+
+</div>
 
 <details>
 <summary>&nbsp;🔬 &nbsp;<b>full spec sheet</b> — the verifiable part</summary>
