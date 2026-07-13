@@ -20,9 +20,9 @@
 
 ## <img src="assets/icon-flask.svg" width="26" align="top" alt="" /> &nbsp;model card — `karan-v3`
 
-<img align="left" width="145" src="assets/knight.gif" alt="animated minecraft knight with cape and diamond sword, walking out of a castle courtyard" />
-
 *Every model ships with a card. This one is self-reported but honestly benchmarked.*
+
+<div align="center"><img src="assets/knight.gif" width="520" alt="animated minecraft knight with cape and diamond sword, walking out of a castle courtyard" /></div>
 
 | field | value |
 |---|---|
