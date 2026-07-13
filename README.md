@@ -20,7 +20,7 @@
 
 ## <img src="assets/icon-flask.svg" width="26" align="top" alt="" /> &nbsp;model card — `karan-v3`
 
-<img align="left" width="145" src="assets/chai-pet-bleed.gif" alt="animated pixel chai-cup creature, steaming happily" />
+<img align="left" width="145" src="assets/knight.gif" alt="animated minecraft knight with cape and diamond sword, walking out of a castle courtyard" />
 
 *Every model ships with a card. This one is self-reported but honestly benchmarked.*
 
@@ -61,13 +61,13 @@
 
 ## <img src="assets/icon-pickaxe.svg" width="26" align="top" alt="" /> &nbsp;currently mining
 
-<div align="center"><img src="assets/minecart.gif" width="720" alt="pixel minecart riding rails through a forest that becomes a glowing server room" /></div>
+<div align="center"><img src="assets/minecart.gif" width="720" alt="pixel minecart riding rails through a cave of glowing amethyst and diamond ore" /></div>
 
 <img align="right" width="105" src="assets/chest-bleed.png" alt="open minecraft chest, light spilling out" />
 
 *Two active veins. The minecart runs daily.*
 
-🟢 &nbsp;**[rlpd-offline-to-online-rl](https://github.com/Karan-Anchan/rlpd-offline-to-online-rl)** — teaching humanoids to walk from old data, then letting them loose online
+🟢 &nbsp;**[mamba-hybrid-lm](https://github.com/Karan-Anchan/mamba-hybrid-lm)** — a ~50M Mamba-2 × attention hybrid LM, trained three ways to answer one question: how few attention layers can you get away with? **1:7 currently leads**
 
 🔵 &nbsp;**[edge-yolo26-deployment](https://github.com/Karan-Anchan/edge-yolo26-deployment)** · **[live demo ▸](https://karan-anchan.github.io/edge-yolo26-deployment/)** — one detector, three runtimes; the latency-per-watt answer turned out to be **FP16/FP8, not INT8**. Detection runs in your browser tab (webcam mode next)
 
@@ -76,10 +76,10 @@
 
 <br/>
 
-**rlpd-offline-to-online-rl** · *lab project, team of 3*
-- Reproduction & extension of RLPD ([Ball et al., ICML 2023](https://arxiv.org/abs/2302.02948)) in PyTorch with Minari offline datasets
-- Symmetric 50/50 offline/online sampling · LayerNorm critics · ensemble of 10 · UTD 20
-- Reproduced across three MuJoCo locomotion suites, extended to Humanoid-v5 with ablations over sampling ratio, ensemble size and update-to-data ratio
+**mamba-hybrid-lm** · *in progress — the ratio study*
+- Interleaves [Mamba-2](https://arxiv.org/abs/2405.21060) selective-SSM blocks with causal attention (the [Jamba](https://arxiv.org/abs/2403.19887) pattern) — d_model 768 · bf16 · SwiGLU · RoPE · trained on OpenWebText, one RTX 5070 12GB
+- Sweeps the attention:SSM ratio — **1:3 / 1:7 / 1:15** — at matched tokens-seen; reduced-scale preview: **1:7 wins val PPL (102.4)**, 1:3 trains fastest
+- The real payoff is at inference: attention's KV-cache grows with context, Mamba's state doesn't — KV-cache @ 8K and tok/s columns land next, then a live token-streaming demo
 
 **edge-yolo26-deployment** · *shipped · [live WebGPU demo](https://karan-anchan.github.io/edge-yolo26-deployment/)*
 - NMS-free YOLO26 fine-tune (SKU-110K dense shelves, mAP@50-95 **0.572**) shipped as **one ONNX graph → TensorRT** (RTX 5070), **ONNX Runtime** (Ryzen 7700) and **WebGPU** in-browser
@@ -100,8 +100,8 @@
 <td rowspan="6" width="150" align="center" valign="middle"><img width="124" src="assets/villager-bleed.png" alt="pixel villager scientist holding a glowing beaker" /></td>
 <th></th><th>release</th><th>notes</th>
 </tr>
-<tr><td><img src="assets/medal-rlpd.png" width="42" alt="" /></td><td><code>v2026.07</code></td><td><b>feat:</b> humanoids learn to walk from offline data <em>(seed 2 remains hostile)</em></td></tr>
-<tr><td><img src="assets/medal-yolo.png" width="42" alt="" /></td><td><code>v2026.06</code></td><td><b>feat:</b> one detector → GPU · CPU · browser, benchmarked — FP8 560 FPS, live via WebGPU</td></tr>
+<tr><td><img src="assets/medal-rlpd.png" width="42" alt="" /></td><td><code>v2026.07</code></td><td><b>feat:</b> <a href="https://github.com/Karan-Anchan/rlpd-offline-to-online-rl">humanoids learn to walk from offline data</a> <em>(seed 2 remains hostile)</em></td></tr>
+<tr><td><img src="assets/medal-yolo.png" width="42" alt="" /></td><td><code>v2026.06</code></td><td><b>feat:</b> <a href="https://github.com/Karan-Anchan/edge-yolo26-deployment">one detector → GPU · CPU · browser</a>, benchmarked — FP8 560 FPS, live via WebGPU</td></tr>
 <tr><td><img src="assets/medal-msc.png" width="42" alt="" /></td><td><code>v2025.04</code></td><td><b>major:</b> relocated to Freiburg — M.Sc. CS (AI), Albert-Ludwigs-Universität</td></tr>
 <tr><td><img src="assets/medal-rag.png" width="42" alt="" /></td><td><code>v2023.10</code></td><td><b>feat:</b> production RAG @ WiZdom Ed — 5k docs, 90% answer accuracy</td></tr>
 <tr><td><img src="assets/medal-init.png" width="42" alt="" /></td><td><code>v2020.09</code></td><td><b>init:</b> B.E. Computer Science, first gradient descended</td></tr>
