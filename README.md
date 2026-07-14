@@ -22,7 +22,7 @@
 
 *Every model ships with a card. This one is self-reported but honestly benchmarked.*
 
-<div align="center"><img src="assets/knight.gif" width="520" alt="animated minecraft knight with cape and diamond sword, walking out of a castle courtyard" /></div>
+<div align="center"><img src="assets/knight.webp" width="520" alt="animated minecraft knight with cape and diamond sword, walking out of a castle courtyard" /></div>
 
 <br/>
 
@@ -67,7 +67,7 @@
 
 ## <img src="assets/icon-pickaxe.svg" width="26" align="top" alt="" /> &nbsp;currently mining
 
-<div align="center"><img src="assets/minecart.gif" width="720" alt="pixel minecart riding rails through a cave of glowing amethyst and diamond ore" /></div>
+<div align="center"><img src="assets/minecart.webp" width="720" alt="pixel minecart riding rails through a cave of glowing amethyst and diamond ore" /></div>
 
 <img align="right" width="105" src="assets/chest-bleed.png" alt="open minecraft chest, light spilling out" />
 
