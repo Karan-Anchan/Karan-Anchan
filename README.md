@@ -103,12 +103,14 @@
 
 <table>
 <tr>
-<td rowspan="6" width="150" align="center" valign="middle"><img width="124" src="assets/villager-bleed.png" alt="pixel villager scientist holding a glowing beaker" /></td>
+<td rowspan="8" width="150" align="center" valign="middle"><img width="124" src="assets/villager-bleed.png" alt="pixel villager scientist holding a glowing beaker" /></td>
 <th></th><th>release</th><th>notes</th>
 </tr>
 <tr><td><img src="assets/medal-rlpd.png" width="42" alt="" /></td><td><code>v2026.07</code></td><td><b>feat:</b> <a href="https://github.com/Karan-Anchan/rlpd-offline-to-online-rl">humanoids learn to walk from offline data</a> <em>(seed 2 remains hostile)</em></td></tr>
 <tr><td><img src="assets/medal-yolo.png" width="42" alt="" /></td><td><code>v2026.06</code></td><td><b>feat:</b> <a href="https://github.com/Karan-Anchan/edge-yolo26-deployment">one detector → GPU · CPU · browser</a>, benchmarked — FP8 560 FPS, live via WebGPU</td></tr>
+<tr><td><img src="assets/medal-nmt.png" width="42" alt="" /></td><td><code>v2026.05</code></td><td><b>fix:</b> <a href="https://github.com/Karan-Anchan/en-hi-nmt-transformer">rebuilt EN→HI translation honestly</a> — frozen test set, beam search, chrF++ 41.6</td></tr>
 <tr><td><img src="assets/medal-msc.png" width="42" alt="" /></td><td><code>v2025.04</code></td><td><b>major:</b> relocated to Freiburg — M.Sc. CS (AI), Albert-Ludwigs-Universität</td></tr>
+<tr><td><img src="assets/medal-found.png" width="42" alt="" /></td><td><code>v2024.05</code></td><td><b>feat:</b> the foundations arc — <a href="https://github.com/Karan-Anchan/Windy_GridWorld_Sim">from-scratch RL</a> · <a href="https://github.com/Karan-Anchan/Unetr_3D_Abdomen_Segmentation">UNETR 3D segmentation</a></td></tr>
 <tr><td><img src="assets/medal-rag.png" width="42" alt="" /></td><td><code>v2023.10</code></td><td><b>feat:</b> production RAG @ WiZdom Ed — 5k docs, 90% answer accuracy</td></tr>
 <tr><td><img src="assets/medal-init.png" width="42" alt="" /></td><td><code>v2020.09</code></td><td><b>init:</b> B.E. Computer Science, first gradient descended</td></tr>
 </table>
@@ -117,17 +119,9 @@
 
 ## <img src="assets/icon-map.svg" width="26" align="top" alt="" /> &nbsp;quest log · 2026
 
-<img align="right" width="259" src="assets/tree-bleed.png" alt="voxel oak tree" />
+*The season pass. XP bars advance as runs converge.*
 
-*The season pass. Progress bars update as runs converge.*
-
-```text
-[##########..............]  world-model RL on Crafter — DreamerV3, imagination ablations
-[########................]  reasoning via GRPO/RLVR — the test-time-compute curve
-[####....................]  efficient-inference lab — quant × spec-decode × KV-cache
-[##......................]  diffusion LM vs a matched AR twin
-[........................]  robotics VLA fine-tune (LIBERO) · n8n multi-agent capstone
-```
+<div align="center"><img src="assets/quest-log.svg" width="900" alt="quest log 2026 — five research quests with xp progress bars: world-model RL 42%, GRPO/RLVR reasoning 33%, efficient-inference lab 17%, diffusion LM 8%, robotics VLA queued" /></div>
 
 <details>
 <summary>&nbsp;🔬 &nbsp;<b>quest briefings</b> — papers behind each bar</summary>
