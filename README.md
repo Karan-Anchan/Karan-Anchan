@@ -44,12 +44,14 @@
 
 <br/>
 
-- **M.Sc. Computer Science (AI)** — Albert-Ludwigs-Universität Freiburg, Apr 2025 → present. Deep learning, probabilistic graphical models, statistical pattern recognition, robot mechanics.
-- **B.E. Computer Science** — N.M.A.M. Institute of Technology, 2020 → 2024. GPA 9.33/10 (German equivalent 1,3).
-- **ML Intern** — WiZdom Ed, Oct 2023 → Oct 2024. Production RAG over 5,000+ documents (LangChain + ChromaDB); ingestion −40% via recursive splitting; cosine-similarity feedback loop → 90% answer accuracy.
-- **Certifications** — [MLOps Specialization, Duke](https://coursera.org/verify/specialization/BC9VRBWCQRU5) · [ML Specialization, Stanford/DeepLearning.AI](https://coursera.org/verify/specialization/JDYYP28JPJNZ)
-- **Languages** — English C2 · Hindi native · German A2 → B1
-- **Base of operations** — Freiburg im Breisgau, DE · CET
+| | |
+|---|---|
+| M.Sc. Computer Science (AI) | Albert-Ludwigs-Universität Freiburg, Apr 2025 → present. Deep learning, probabilistic graphical models, statistical pattern recognition, robot mechanics. |
+| B.E. Computer Science | N.M.A.M. Institute of Technology, 2020 → 2024. GPA 9.33/10 (German equivalent 1,3). |
+| ML Intern | WiZdom Ed, Oct 2023 → Oct 2024. Production RAG over 5,000+ documents (LangChain + ChromaDB); ingestion −40% via recursive splitting; cosine-similarity feedback loop → 90% answer accuracy. |
+| Certifications | [MLOps Specialization, Duke](https://coursera.org/verify/specialization/BC9VRBWCQRU5) · [ML Specialization, Stanford/DeepLearning.AI](https://coursera.org/verify/specialization/JDYYP28JPJNZ) |
+| Languages | English C2 · Hindi native · German A2 → B1 |
+| Base of operations | Freiburg im Breisgau, DE · CET |
 
 </details>
 
@@ -90,7 +92,7 @@
 **edge-yolo26-deployment** · *shipped · [live WebGPU demo](https://karan-anchan.github.io/edge-yolo26-deployment/)*
 - NMS-free YOLO26 fine-tune (SKU-110K dense shelves, mAP@50-95 **0.572**) shipped as **one ONNX graph → TensorRT** (RTX 5070), **ONNX Runtime** (Ryzen 7700) and **WebGPU** in-browser
 - MLPerf-style p50/p95 latency + NVML power. Verdict: **FP8 = 560 FPS**, **FP16 wins latency-per-watt** (9.3 FPS/W, near-lossless), and **INT8 is dominated on Blackwell** — slower *and* hungrier than both
-- The two "INT8"s disagree ~8× on accuracy loss (TensorRT −5.65% vs ONNX Runtime −0.72%) — closed with per-channel quantization + an FP16 detection head
+- The two "INT8"s disagree ~8× on accuracy loss (TensorRT −5.65% vs ONNX Runtime −0.72%) — traced to quantization granularity + head sensitivity; the CPU path gets there with per-channel quantization and an FP32 detection head
 - Detection runs 100% client-side; the frame never leaves the browser
 
 </details>
@@ -128,12 +130,14 @@
 
 <br/>
 
-- **World-model RL** — DreamerV3 ([arXiv 2301.04104](https://arxiv.org/abs/2301.04104)) on Crafter at 1M steps; ablate imagination horizon (H = 5/15/30) and categorical vs Gaussian latents; render dream-vs-reality rollouts
-- **GRPO / RLVR** — verifiable-reward post-training on math ([DeepSeekMath, arXiv 2402.03300](https://arxiv.org/abs/2402.03300)); measure accuracy vs samples-at-inference
-- **Efficient inference** — GPTQ/AWQ × speculative decoding × KV-cache compression; a serving-throughput Pareto on one GPU
-- **Diffusion LM** — masked-diffusion ([arXiv 2406.07524](https://arxiv.org/abs/2406.07524)) vs a compute-matched autoregressive twin
-- **Robotics VLA** — SmolVLA/OpenVLA behaviour cloning on LIBERO; discrete-token vs flow-matching action heads
-- **Agentic capstone** — n8n supervisor + RAG + tool-use pipeline with pass^k reliability evals
+| quest | the plan |
+|---|---|
+| World-model RL | DreamerV3 ([arXiv 2301.04104](https://arxiv.org/abs/2301.04104)) on Crafter at 1M steps; ablate imagination horizon (H = 5/15/30) and categorical vs Gaussian latents; render dream-vs-reality rollouts |
+| GRPO / RLVR | verifiable-reward post-training on math ([DeepSeekMath, arXiv 2402.03300](https://arxiv.org/abs/2402.03300)); measure accuracy vs samples-at-inference |
+| Efficient inference | GPTQ/AWQ × speculative decoding × KV-cache compression; a serving-throughput Pareto on one GPU |
+| Diffusion LM | masked-diffusion ([arXiv 2406.07524](https://arxiv.org/abs/2406.07524)) vs a compute-matched autoregressive twin |
+| Robotics VLA | SmolVLA/OpenVLA behaviour cloning on LIBERO; discrete-token vs flow-matching action heads |
+| Agentic capstone | n8n supervisor + RAG + tool-use pipeline with pass^k reliability evals |
 
 </details>
 
