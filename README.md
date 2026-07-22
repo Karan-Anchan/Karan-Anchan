@@ -108,7 +108,7 @@
 <td rowspan="8" width="150" align="center" valign="middle"><img width="124" src="assets/villager-bleed.png" alt="pixel villager scientist holding a glowing beaker" /></td>
 <th></th><th>release</th><th>notes</th>
 </tr>
-<tr><td><img src="assets/medal-rlpd.png" width="42" alt="" /></td><td><code>v2026.07</code></td><td><b>feat:</b> <a href="https://github.com/Karan-Anchan/rlpd-offline-to-online-rl">humanoids learn to walk from offline data</a> <em>(seed 2 remains hostile)</em></td></tr>
+<tr><td><img src="assets/medal-rlpd.png" width="42" alt="" /></td><td><code>v2026.07</code></td><td><b>feat:</b> <a href="https://karan-anchan.github.io/rlpd/">reproduced RLPD, then ablated it until it broke its own premise</a> <em>(online-only beat the 50/50 mix on Humanoid)</em></td></tr>
 <tr><td><img src="assets/medal-yolo.png" width="42" alt="" /></td><td><code>v2026.06</code></td><td><b>feat:</b> <a href="https://github.com/Karan-Anchan/edge-yolo26-deployment">one detector → GPU · CPU · browser</a>, benchmarked — FP8 560 FPS, live via WebGPU</td></tr>
 <tr><td><img src="assets/medal-nmt.png" width="42" alt="" /></td><td><code>v2026.05</code></td><td><b>fix:</b> <a href="https://github.com/Karan-Anchan/en-hi-nmt-transformer">rebuilt EN→HI translation honestly</a> — frozen test set, beam search, chrF++ 41.6</td></tr>
 <tr><td><img src="assets/medal-msc.png" width="42" alt="" /></td><td><code>v2025.04</code></td><td><b>major:</b> relocated to Freiburg — M.Sc. CS (AI), Albert-Ludwigs-Universität</td></tr>
