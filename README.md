@@ -12,15 +12,15 @@
 
 <br/>
 
-<sub>🎮 &nbsp;flavor on the surface &nbsp;·&nbsp; 🔬 &nbsp;science inside the folds — <em>click the ▸ panels as you go</em></sub>
+<sub>🎮 &nbsp;flavor on the surface &nbsp;·&nbsp; 🔬 &nbsp;details in the foldouts &nbsp;·&nbsp; <em>open the ▸ panels as you go</em></sub>
 
 </div>
 
 <img src="assets/divider.svg" width="900" alt="" />
 
-## <img src="assets/icon-flask.svg" width="26" align="top" alt="" /> &nbsp;model card — `karan-v3`
+## <img src="assets/icon-flask.svg" width="26" align="top" alt="" /> &nbsp;model card · `karan-v3`
 
-*Every model ships with a card. This one is self-reported but honestly benchmarked.*
+*A self-reported model card, with the measurable parts listed below.*
 
 <div align="center"><img src="assets/knight.webp" width="520" alt="animated minecraft knight with cape and diamond sword, walking out of a castle courtyard" /></div>
 
@@ -33,14 +33,14 @@
 | **architecture** | curiosity-driven · chai-cooled · stubbornly empirical |
 | **pretraining** | B.E. Computer Science (9.33/10) → production ML internship |
 | **fine-tuning** | M.Sc. Computer Science (AI) · University of Freiburg 🇩🇪 |
-| **alignment** | to measured baselines — vibes are not an eval |
+| **alignment** | to measured baselines; vibes are not an eval |
 | **known limitations** | will re-run your experiment with 3 seeds before agreeing with it |
 | **intended use** | research collaborations · working-student roles · hard problems |
 
 </div>
 
 <details>
-<summary>&nbsp;🔬 &nbsp;<b>full spec sheet</b> — the verifiable part</summary>
+<summary>&nbsp;🔬 &nbsp;<b>full spec sheet</b> · the verifiable part</summary>
 
 <br/>
 
@@ -73,26 +73,26 @@
 
 <img align="right" width="105" src="assets/chest-bleed.png" alt="open minecraft chest, light spilling out" />
 
-*Two active veins. The minecart runs daily.*
+*Two active repositories right now.*
 
-🟢 &nbsp;**[mamba-hybrid-lm](https://github.com/Karan-Anchan/mamba-hybrid-lm)** — a ~50M Mamba-2 × attention hybrid LM, trained three ways to answer one question: how few attention layers can you get away with? **1:7 currently leads**
+🟢 &nbsp;**[mamba-hybrid-lm](https://github.com/Karan-Anchan/mamba-hybrid-lm)** · a ~50M Mamba-2 × attention hybrid LM comparing three attention:SSM ratios. **1:7 currently has the lowest validation perplexity in the reduced-scale run**
 
-🔵 &nbsp;**[edge-yolo26-deployment](https://github.com/Karan-Anchan/edge-yolo26-deployment)** · **[live demo ▸](https://karan-anchan.github.io/edge-yolo26-deployment/)** — one detector, three runtimes; the latency-per-watt answer turned out to be **FP16/FP8, not INT8**. Detection runs in your browser tab (webcam mode next)
+🔵 &nbsp;**[edge-yolo26-deployment](https://github.com/Karan-Anchan/edge-yolo26-deployment)** · **[live demo ▸](https://karan-anchan.github.io/edge-yolo26-deployment/)** · one detector across TensorRT, ONNX Runtime, and WebGPU. On the tested RTX 5070, **FP16 has the best latency per watt and FP8 is fastest**. Detection runs in the browser tab.
 
 <details>
-<summary>&nbsp;🔬 &nbsp;<b>run configs</b> — what's actually inside</summary>
+<summary>&nbsp;🔬 &nbsp;<b>run configs</b> · what is inside</summary>
 
 <br/>
 
-**mamba-hybrid-lm** · *in progress — the ratio study*
-- Interleaves [Mamba-2](https://arxiv.org/abs/2405.21060) selective-SSM blocks with causal attention (the [Jamba](https://arxiv.org/abs/2403.19887) pattern) — d_model 768 · bf16 · SwiGLU · RoPE · trained on OpenWebText, one RTX 5070 12GB
-- Sweeps the attention:SSM ratio — **1:3 / 1:7 / 1:15** — at matched tokens-seen; reduced-scale preview: **1:7 wins val PPL (102.4)**, 1:3 trains fastest
-- The real payoff is at inference: attention's KV-cache grows with context, Mamba's state doesn't — KV-cache @ 8K and tok/s columns land next, then a live token-streaming demo
+**mamba-hybrid-lm** · *in progress*
+- Interleaves [Mamba-2](https://arxiv.org/abs/2405.21060) selective-SSM blocks with causal attention using the [Jamba](https://arxiv.org/abs/2403.19887) pattern · d_model 768 · bf16 · SwiGLU · RoPE · OpenWebText · one RTX 5070 12GB
+- Compares **1:3 / 1:7 / 1:15** attention:SSM ratios at matched tokens-seen. In the reduced-scale preview, **1:7 has the lowest val PPL (102.4)** and 1:3 trains fastest.
+- KV-cache use at 8K context, inference throughput, and the live token-streaming demo are still pending.
 
 **edge-yolo26-deployment** · *shipped · [live WebGPU demo](https://karan-anchan.github.io/edge-yolo26-deployment/)*
 - NMS-free YOLO26 fine-tune (SKU-110K dense shelves, mAP@50-95 **0.572**) shipped as **one ONNX graph → TensorRT** (RTX 5070), **ONNX Runtime** (Ryzen 7700) and **WebGPU** in-browser
-- MLPerf-style p50/p95 latency + NVML power. Verdict: **FP8 = 560 FPS**, **FP16 wins latency-per-watt** (9.3 FPS/W, near-lossless), and **INT8 is dominated on Blackwell** — slower *and* hungrier than both
-- The two "INT8"s disagree ~8× on accuracy loss (TensorRT −5.65% vs ONNX Runtime −0.72%) — traced to quantization granularity + head sensitivity; the CPU path gets there with per-channel quantization and an FP32 detection head
+- MLPerf-style p50/p95 latency + NVML power. **FP8 reaches 560 FPS**, **FP16 reaches 9.3 FPS/W with almost no accuracy loss**, and INT8 is slower and draws more power than both on this Blackwell GPU.
+- The two INT8 paths differ by roughly 8× in accuracy loss (TensorRT −5.65% vs ONNX Runtime −0.72%). The CPU path uses per-channel quantization and keeps the detection head in FP32.
 - Detection runs 100% client-side; the frame never leaves the browser
 
 </details>
@@ -108,9 +108,9 @@
 <td rowspan="8" width="150" align="center" valign="middle"><img width="124" src="assets/villager-bleed.png" alt="pixel villager scientist holding a glowing beaker" /></td>
 <th></th><th>release</th><th>notes</th>
 </tr>
-<tr><td><img src="assets/medal-rlpd.png" width="42" alt="" /></td><td><code>v2026.07</code></td><td><b>feat:</b> <a href="https://karan-anchan.github.io/rlpd/">reproduced RLPD, then ablated it until it broke its own premise</a> <em>(online-only beat the 50/50 mix on Humanoid)</em></td></tr>
-<tr><td><img src="assets/medal-yolo.png" width="42" alt="" /></td><td><code>v2026.06</code></td><td><b>feat:</b> <a href="https://github.com/Karan-Anchan/edge-yolo26-deployment">one detector → GPU · CPU · browser</a>, benchmarked — FP8 560 FPS, live via WebGPU</td></tr>
-<tr><td><img src="assets/medal-nmt.png" width="42" alt="" /></td><td><code>v2026.05</code></td><td><b>fix:</b> <a href="https://github.com/Karan-Anchan/en-hi-nmt-transformer">rebuilt EN→HI translation honestly</a> — frozen test set, beam search, chrF++ 41.6</td></tr>
+<tr><td><img src="assets/medal-rlpd.png" width="42" alt="" /></td><td><code>v2026.07</code></td><td><b>feat:</b> <a href="https://karan-anchan.github.io/rlpd/">reproduced RLPD and extended it to Humanoid</a> <em>(online-only beat the 50/50 mix)</em></td></tr>
+<tr><td><img src="assets/medal-yolo.png" width="42" alt="" /></td><td><code>v2026.06</code></td><td><b>feat:</b> <a href="https://github.com/Karan-Anchan/edge-yolo26-deployment">one detector on GPU, CPU, and the browser</a> · FP8 at 560 FPS · live via WebGPU</td></tr>
+<tr><td><img src="assets/medal-nmt.png" width="42" alt="" /></td><td><code>v2026.05</code></td><td><b>fix:</b> <a href="https://github.com/Karan-Anchan/en-hi-nmt-transformer">rebuilt and re-evaluated EN→HI translation</a> · frozen test set · beam search · chrF++ 41.6</td></tr>
 <tr><td><img src="assets/medal-msc.png" width="42" alt="" /></td><td><code>v2025.04</code></td><td><b>major:</b> relocated to Freiburg — M.Sc. CS (AI), Albert-Ludwigs-Universität</td></tr>
 <tr><td><img src="assets/medal-found.png" width="42" alt="" /></td><td><code>v2024.05</code></td><td><b>feat:</b> the foundations arc — <a href="https://github.com/Karan-Anchan/Windy_GridWorld_Sim">from-scratch RL</a> · <a href="https://github.com/Karan-Anchan/Unetr_3D_Abdomen_Segmentation">UNETR 3D segmentation</a></td></tr>
 <tr><td><img src="assets/medal-rag.png" width="42" alt="" /></td><td><code>v2023.10</code></td><td><b>feat:</b> production RAG @ WiZdom Ed — 5k docs, 90% answer accuracy</td></tr>
@@ -121,12 +121,12 @@
 
 ## <img src="assets/icon-map.svg" width="26" align="top" alt="" /> &nbsp;quest log · 2026
 
-*The season pass. XP bars advance as runs converge.*
+*The current research queue. XP bars track progress.*
 
 <div align="center"><img src="assets/quest-log.svg" width="900" alt="quest log 2026 — five research quests with xp progress bars: world-model RL 42%, GRPO/RLVR reasoning 33%, efficient-inference lab 17%, diffusion LM 8%, robotics VLA queued" /></div>
 
 <details>
-<summary>&nbsp;🔬 &nbsp;<b>quest briefings</b> — papers behind each bar</summary>
+<summary>&nbsp;🔬 &nbsp;<b>quest briefings</b> · papers behind each bar</summary>
 
 <br/>
 
@@ -166,6 +166,6 @@
 
 <br/>
 
-<sub><code>no template survived contact with this readme · assembled by hand in freiburg</code></sub>
+<sub><code>assembled in freiburg · fueled by chai</code></sub>
 
 </div>
