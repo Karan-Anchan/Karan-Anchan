@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="Karan Anchan, machine learning research and engineering presented as a nature-inspired field notebook" />
+  <img src="assets/header-spectrum.svg" width="100%" alt="Karan Anchan, machine learning research and engineering presented as a nature-inspired field notebook" />
 </p>
 
 <p align="center">
