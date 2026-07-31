@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg" />
-  <img src="assets/header-light.svg" width="100%" alt="Karan Anchan, machine learning research and engineering with selected project measurements" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-adaptive-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-adaptive-light.svg" />
+  <img src="assets/header-adaptive-light.svg" width="100%" alt="Karan Anchan, machine learning research and engineering with selected project measurements" />
 </picture>
 
 <p align="center">
@@ -12,11 +12,9 @@
   <a href="mailto:kar.anchan02@gmail.com">Email</a>
 </p>
 
-I am an M.Sc. Computer Science student at the University of Freiburg, working mostly on reinforcement learning, efficient model inference, and retrieval systems. I like projects where the claim is specific enough to test: reproduce the baseline, hold the comparison still, measure the failure mode, and publish the run artifacts.
+I am an M.Sc. Computer Science student at the University of Freiburg, focused on reinforcement learning, efficient model inference, and retrieval systems. I like projects with a clear question and results that other people can reproduce and inspect.
 
-Outside the lab, I am happiest somewhere green. The visual language here borrows from field notebooks: observations first, measurements beside them, and a clear trail back to the source.
-
-Most of the recent work below was trained and benchmarked on one RTX 5070. That constraint has made efficiency part of the research question, not an afterthought.
+Outside research, I love photography, especially nature, animals, and landscapes. Photography makes me slow down and pay attention, which is part of why the field-note style of this profile feels like me.
 
 ## Selected work
 
