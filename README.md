@@ -1,6 +1,8 @@
-<p align="center">
-  <img src="assets/header-spectrum.svg" width="100%" alt="Karan Anchan, machine learning research and engineering presented as a nature-inspired field notebook" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg" />
+  <img src="assets/header-light.svg" width="100%" alt="Karan Anchan, machine learning research and engineering with selected project measurements" />
+</picture>
 
 <p align="center">
   <a href="https://karan-anchan.github.io/">Portfolio</a>
@@ -63,17 +65,21 @@ I am finishing the full Mamba ratio study and checking whether its perplexity re
 
 ## How I work
 
-<p align="center">
-  <img src="assets/method.svg" width="100%" alt="A field-trail workflow from observation through baseline reproduction, controlled runs, systems measurement, and an honest write-up" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/method-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/method-light.svg" />
+  <img src="assets/method-light.svg" width="100%" alt="A five-step workflow from defining the question through documenting the limits" />
+</picture>
 
 My repositories keep the result next to the conditions that produced it: configs, seeds, evaluation artifacts, hardware, and known limitations. Preview runs stay labeled as previews. Single-split validation stays labeled as validation.
 
 ## Working stack
 
-<p align="center">
-  <img src="assets/stack.svg" width="100%" alt="Karan's field kit across research, deployment, retrieval, and product engineering" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/stack-light.svg" />
+  <img src="assets/stack-light.svg" width="100%" alt="Karan's working stack across research, deployment, retrieval, and product engineering" />
+</picture>
 
 ## Contact
 

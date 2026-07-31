@@ -1,20 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
   <title id="title">Karan Anchan, machine learning research and engineering</title>
-  <desc id="desc">A minimal multicolor research header with measured results from reinforcement learning, edge inference, and retrieval systems.</desc>
+  <desc id="desc">A minimal dark research header with selected measurements from reinforcement learning, edge inference, and retrieval systems.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#090d14" />
+      <stop offset="0" stop-color="#0d1117" />
       <stop offset="1" stop-color="#111827" />
     </linearGradient>
-    <clipPath id="frame">
-      <rect width="1200" height="330" rx="22" />
-    </clipPath>
+    <clipPath id="frame"><rect width="1200" height="330" rx="22" /></clipPath>
   </defs>
 
   <g clip-path="url(#frame)">
     <rect width="1200" height="330" fill="url(#background)" />
-
-    <g fill="none" stroke-width="1.2" opacity="0.12">
+    <g fill="none" stroke-width="1.2" opacity="0.14">
       <path d="M890 7 C969 59 1038 15 1124 45 C1162 58 1189 82 1220 105" stroke="#65c7f7" />
       <path d="M932 -12 C1004 37 1072 2 1151 31 C1184 43 1208 61 1232 81" stroke="#b7a6ff" />
       <path d="M966 27 C1029 74 1095 41 1168 67 C1193 76 1214 91 1234 108" stroke="#a3d977" />
@@ -28,17 +25,16 @@
         <text x="27" y="13" fill="#9ca9b8" font-size="11.5" font-weight="700" letter-spacing="1.55">ML RESEARCH + ENGINEERING</text>
       </g>
 
-      <text x="58" y="130" fill="#f8fafc" font-size="61" font-weight="760" letter-spacing="-2.4">Karan Anchan</text>
-      <text x="60" y="172" fill="#aeb8c6" font-size="19">Reproduce the baseline. Test the failure mode. Ship the result.</text>
+      <text x="58" y="139" fill="#f0f6fc" font-size="61" font-weight="760" letter-spacing="-2.4">Karan Anchan</text>
 
-      <g transform="translate(60 204)">
+      <g transform="translate(60 174)">
         <rect width="116" height="3" rx="1.5" fill="#a3d977" />
         <rect x="126" width="116" height="3" rx="1.5" fill="#65c7f7" />
         <rect x="252" width="116" height="3" rx="1.5" fill="#f7c65d" />
         <rect x="378" width="116" height="3" rx="1.5" fill="#b7a6ff" />
       </g>
 
-      <g transform="translate(60 242)" font-size="11.5" font-weight="650" letter-spacing="0.65">
+      <g transform="translate(60 212)" font-size="11.5" font-weight="650" letter-spacing="0.65">
         <circle cx="5" cy="5" r="5" fill="#a3d977" />
         <text x="18" y="9" fill="#d5dbe4">REINFORCEMENT LEARNING</text>
         <circle cx="224" cy="5" r="5" fill="#65c7f7" />
@@ -47,35 +43,35 @@
         <text x="436" y="9" fill="#d5dbe4">RETRIEVAL SYSTEMS</text>
       </g>
 
-      <text x="60" y="300" fill="#667386" font-size="10.5" letter-spacing="1.4">FREIBURG · FIELD NOTES · MEASURED RESULTS</text>
+      <text x="60" y="285" fill="#7d8998" font-size="10.5" letter-spacing="1.4">FREIBURG · FIELD NOTES · MEASURED RESULTS</text>
 
-      <line x1="752" y1="42" x2="752" y2="288" stroke="#2a3444" />
-      <text x="794" y="48" fill="#718095" font-size="10.5" font-weight="700" letter-spacing="1.65">SELECTED MEASUREMENTS</text>
+      <line x1="752" y1="42" x2="752" y2="288" stroke="#2d3748" />
+      <text x="794" y="48" fill="#7d8998" font-size="10.5" font-weight="700" letter-spacing="1.65">SELECTED MEASUREMENTS</text>
 
       <g transform="translate(794 76)">
         <circle cx="5" cy="5" r="5" fill="#a3d977" />
-        <text x="20" y="9" fill="#93a0b0" font-size="10.5" font-weight="700" letter-spacing="1.3">RLPD</text>
-        <text x="0" y="53" fill="#f8fafc" font-size="30" font-weight="750">88 to 90%</text>
-        <text x="166" y="51" fill="#9ba8b8" font-size="12.5">of Minari v5 expert</text>
-        <line x1="0" y1="69" x2="348" y2="69" stroke="#273142" />
+        <text x="20" y="9" fill="#9ca9b8" font-size="10.5" font-weight="700" letter-spacing="1.3">RLPD</text>
+        <text x="0" y="53" fill="#f0f6fc" font-size="30" font-weight="750">88 to 90%</text>
+        <text x="166" y="51" fill="#9ca9b8" font-size="12.5">of Minari v5 expert</text>
+        <line x1="0" y1="69" x2="348" y2="69" stroke="#2d3748" />
       </g>
 
       <g transform="translate(794 157)">
         <circle cx="5" cy="5" r="5" fill="#f7c65d" />
-        <text x="20" y="9" fill="#93a0b0" font-size="10.5" font-weight="700" letter-spacing="1.3">EDGE INFERENCE</text>
-        <text x="0" y="53" fill="#f8fafc" font-size="30" font-weight="750">560 FPS</text>
-        <text x="142" y="51" fill="#9ba8b8" font-size="12.5">FP8 on RTX 5070</text>
-        <line x1="0" y1="69" x2="348" y2="69" stroke="#273142" />
+        <text x="20" y="9" fill="#9ca9b8" font-size="10.5" font-weight="700" letter-spacing="1.3">EDGE INFERENCE</text>
+        <text x="0" y="53" fill="#f0f6fc" font-size="30" font-weight="750">560 FPS</text>
+        <text x="142" y="51" fill="#9ca9b8" font-size="12.5">FP8 on RTX 5070</text>
+        <line x1="0" y1="69" x2="348" y2="69" stroke="#2d3748" />
       </g>
 
       <g transform="translate(794 238)">
         <circle cx="5" cy="5" r="5" fill="#b7a6ff" />
-        <text x="20" y="9" fill="#93a0b0" font-size="10.5" font-weight="700" letter-spacing="1.3">RETRIEVAL SYSTEM</text>
-        <text x="0" y="53" fill="#f8fafc" font-size="30" font-weight="750">93.4%</text>
-        <text x="119" y="51" fill="#9ba8b8" font-size="12.5">mean groundedness</text>
+        <text x="20" y="9" fill="#9ca9b8" font-size="10.5" font-weight="700" letter-spacing="1.3">RETRIEVAL SYSTEM</text>
+        <text x="0" y="53" fill="#f0f6fc" font-size="30" font-weight="750">93.4%</text>
+        <text x="119" y="51" fill="#9ca9b8" font-size="12.5">mean groundedness</text>
       </g>
     </g>
 
-    <rect x="0.75" y="0.75" width="1198.5" height="328.5" rx="21.25" fill="none" stroke="#2d3748" stroke-width="1.5" />
+    <rect x="0.75" y="0.75" width="1198.5" height="328.5" rx="21.25" fill="none" stroke="#30363d" stroke-width="1.5" />
   </g>
 </svg>

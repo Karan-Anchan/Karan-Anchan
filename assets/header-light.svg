@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">Karan Anchan, machine learning research and engineering</title>
+  <desc id="desc">A minimal light research header with selected measurements from reinforcement learning, edge inference, and retrieval systems.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" />
+      <stop offset="1" stop-color="#f6f8fa" />
+    </linearGradient>
+    <clipPath id="frame"><rect width="1200" height="330" rx="22" /></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="330" fill="url(#background)" />
+    <g fill="none" stroke-width="1.2" opacity="0.18">
+      <path d="M890 7 C969 59 1038 15 1124 45 C1162 58 1189 82 1220 105" stroke="#1976a8" />
+      <path d="M932 -12 C1004 37 1072 2 1151 31 C1184 43 1208 61 1232 81" stroke="#7157b8" />
+      <path d="M966 27 C1029 74 1095 41 1168 67 C1193 76 1214 91 1234 108" stroke="#4d8a32" />
+    </g>
+    <circle cx="1136" cy="37" r="18" fill="#c98700" opacity="0.12" />
+
+    <g font-family="Segoe UI, Arial, sans-serif">
+      <g transform="translate(58 44)">
+        <path d="M0 13 C0 5 7 1 15 2 C14 10 9 15 0 13Z" fill="#4d8a32" />
+        <path d="M2 13 C6 9 9 5 14 3" fill="none" stroke="#dff0d3" stroke-width="1.1" stroke-linecap="round" />
+        <text x="27" y="13" fill="#57606a" font-size="11.5" font-weight="700" letter-spacing="1.55">ML RESEARCH + ENGINEERING</text>
+      </g>
+
+      <text x="58" y="139" fill="#1f2328" font-size="61" font-weight="760" letter-spacing="-2.4">Karan Anchan</text>
+
+      <g transform="translate(60 174)">
+        <rect width="116" height="3" rx="1.5" fill="#4d8a32" />
+        <rect x="126" width="116" height="3" rx="1.5" fill="#1976a8" />
+        <rect x="252" width="116" height="3" rx="1.5" fill="#b86e00" />
+        <rect x="378" width="116" height="3" rx="1.5" fill="#7157b8" />
+      </g>
+
+      <g transform="translate(60 212)" font-size="11.5" font-weight="650" letter-spacing="0.65">
+        <circle cx="5" cy="5" r="5" fill="#4d8a32" />
+        <text x="18" y="9" fill="#424a53">REINFORCEMENT LEARNING</text>
+        <circle cx="224" cy="5" r="5" fill="#1976a8" />
+        <text x="237" y="9" fill="#424a53">EFFICIENT INFERENCE</text>
+        <circle cx="423" cy="5" r="5" fill="#7157b8" />
+        <text x="436" y="9" fill="#424a53">RETRIEVAL SYSTEMS</text>
+      </g>
+
+      <text x="60" y="285" fill="#57606a" font-size="10.5" letter-spacing="1.4">FREIBURG · FIELD NOTES · MEASURED RESULTS</text>
+
+      <line x1="752" y1="42" x2="752" y2="288" stroke="#d0d7de" />
+      <text x="794" y="48" fill="#57606a" font-size="10.5" font-weight="700" letter-spacing="1.65">SELECTED MEASUREMENTS</text>
+
+      <g transform="translate(794 76)">
+        <circle cx="5" cy="5" r="5" fill="#4d8a32" />
+        <text x="20" y="9" fill="#57606a" font-size="10.5" font-weight="700" letter-spacing="1.3">RLPD</text>
+        <text x="0" y="53" fill="#1f2328" font-size="30" font-weight="750">88 to 90%</text>
+        <text x="166" y="51" fill="#57606a" font-size="12.5">of Minari v5 expert</text>
+        <line x1="0" y1="69" x2="348" y2="69" stroke="#d8dee4" />
+      </g>
+
+      <g transform="translate(794 157)">
+        <circle cx="5" cy="5" r="5" fill="#b86e00" />
+        <text x="20" y="9" fill="#57606a" font-size="10.5" font-weight="700" letter-spacing="1.3">EDGE INFERENCE</text>
+        <text x="0" y="53" fill="#1f2328" font-size="30" font-weight="750">560 FPS</text>
+        <text x="142" y="51" fill="#57606a" font-size="12.5">FP8 on RTX 5070</text>
+        <line x1="0" y1="69" x2="348" y2="69" stroke="#d8dee4" />
+      </g>
+
+      <g transform="translate(794 238)">
+        <circle cx="5" cy="5" r="5" fill="#7157b8" />
+        <text x="20" y="9" fill="#57606a" font-size="10.5" font-weight="700" letter-spacing="1.3">RETRIEVAL SYSTEM</text>
+        <text x="0" y="53" fill="#1f2328" font-size="30" font-weight="750">93.4%</text>
+        <text x="119" y="51" fill="#57606a" font-size="12.5">mean groundedness</text>
+      </g>
+    </g>
+
+    <rect x="0.75" y="0.75" width="1198.5" height="328.5" rx="21.25" fill="none" stroke="#d0d7de" stroke-width="1.5" />
+  </g>
+</svg>
