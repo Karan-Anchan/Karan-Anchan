@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="Karan Anchan, machine learning research and engineering in reinforcement learning, efficient inference, and retrieval systems" />
+  <img src="assets/header.svg" width="100%" alt="Karan Anchan, machine learning research and engineering presented as a nature-inspired field notebook" />
 </p>
 
 <p align="center">
@@ -11,6 +11,8 @@
 </p>
 
 I am an M.Sc. Computer Science student at the University of Freiburg, working mostly on reinforcement learning, efficient model inference, and retrieval systems. I like projects where the claim is specific enough to test: reproduce the baseline, hold the comparison still, measure the failure mode, and publish the run artifacts.
+
+Outside the lab, I am happiest somewhere green. The visual language here borrows from field notebooks: observations first, measurements beside them, and a clear trail back to the source.
 
 Most of the recent work below was trained and benchmarked on one RTX 5070. That constraint has made efficiency part of the research question, not an afterthought.
 
@@ -62,7 +64,7 @@ I am finishing the full Mamba ratio study and checking whether its perplexity re
 ## How I work
 
 <p align="center">
-  <img src="assets/method.svg" width="100%" alt="Workflow from a research question through baseline reproduction, controlled runs, systems measurement, and an honest write-up" />
+  <img src="assets/method.svg" width="100%" alt="A field-trail workflow from observation through baseline reproduction, controlled runs, systems measurement, and an honest write-up" />
 </p>
 
 My repositories keep the result next to the conditions that produced it: configs, seeds, evaluation artifacts, hardware, and known limitations. Preview runs stay labeled as previews. Single-split validation stays labeled as validation.
@@ -70,12 +72,12 @@ My repositories keep the result next to the conditions that produced it: configs
 ## Working stack
 
 <p align="center">
-  <img src="assets/stack.svg" width="100%" alt="Karan's working stack across research, deployment, retrieval, and product engineering" />
+  <img src="assets/stack.svg" width="100%" alt="Karan's field kit across research, deployment, retrieval, and product engineering" />
 </p>
 
 ## Contact
 
-I am open to research collaborations, working-student roles, and internships in ML research or engineering. The easiest way to reach me is [email](mailto:kar.anchan02@gmail.com). More context and project write-ups are on my [portfolio](https://karan-anchan.github.io/).
+I am based in Freiburg, where the Black Forest is never far away, and I am open to research collaborations, working-student roles, and internships in ML research or engineering. The easiest way to reach me is [email](mailto:kar.anchan02@gmail.com). More context and project write-ups are on my [portfolio](https://karan-anchan.github.io/).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Karan-Anchan/Karan-Anchan/output/snake.svg" />
