@@ -1,103 +1,81 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
-  <title id="title">Karan Anchan, machine learning field notes</title>
-  <desc id="desc">A nature-inspired research dashboard with topographic contours and measured results from reinforcement learning, edge inference, and retrieval systems.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">Karan Anchan, machine learning research and engineering</title>
+  <desc id="desc">A minimal multicolor research header with measured results from reinforcement learning, edge inference, and retrieval systems.</desc>
   <defs>
-    <linearGradient id="forest" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#06130d" />
-      <stop offset="0.56" stop-color="#0a1b12" />
-      <stop offset="1" stop-color="#102419" />
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090d14" />
+      <stop offset="1" stop-color="#111827" />
     </linearGradient>
-    <linearGradient id="trail" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#c6df82" />
-      <stop offset="0.52" stop-color="#86cf7a" />
-      <stop offset="1" stop-color="#65c8b0" />
-    </linearGradient>
-    <pattern id="topography" width="280" height="190" patternUnits="userSpaceOnUse">
-      <g fill="none" stroke="#b7d9a4" stroke-opacity="0.075" stroke-width="1.2">
-        <path d="M-40 48 C18 2 78 9 116 41 S207 92 320 32" />
-        <path d="M-54 68 C16 18 75 24 112 55 S207 108 330 48" />
-        <path d="M-64 89 C9 39 69 42 109 72 S209 124 342 66" />
-        <path d="M-72 112 C4 59 66 60 108 89 S210 142 352 85" />
-        <path d="M-80 138 C0 83 65 79 109 107 S213 161 362 106" />
-      </g>
-    </pattern>
     <clipPath id="frame">
-      <rect width="1200" height="390" rx="24" />
+      <rect width="1200" height="330" rx="22" />
     </clipPath>
   </defs>
 
   <g clip-path="url(#frame)">
-    <rect width="1200" height="390" fill="url(#forest)" />
-    <rect width="1200" height="390" fill="url(#topography)" />
-    <circle cx="1115" cy="-45" r="265" fill="#6fbf73" opacity="0.055" />
-    <path d="M0 342 C110 289 205 317 300 282 C414 241 483 324 590 288 C677 258 737 292 811 267 C924 228 1006 296 1200 235 V390 H0Z" fill="#0d2819" opacity="0.72" />
-    <path d="M0 365 C137 321 246 357 363 322 C470 290 568 348 688 312 C807 277 910 333 1013 302 C1088 280 1148 280 1200 265 V390 H0Z" fill="#123321" opacity="0.82" />
+    <rect width="1200" height="330" fill="url(#background)" />
+
+    <g fill="none" stroke-width="1.2" opacity="0.12">
+      <path d="M890 7 C969 59 1038 15 1124 45 C1162 58 1189 82 1220 105" stroke="#65c7f7" />
+      <path d="M932 -12 C1004 37 1072 2 1151 31 C1184 43 1208 61 1232 81" stroke="#b7a6ff" />
+      <path d="M966 27 C1029 74 1095 41 1168 67 C1193 76 1214 91 1234 108" stroke="#a3d977" />
+    </g>
+    <circle cx="1136" cy="37" r="18" fill="#f7c65d" opacity="0.13" />
 
     <g font-family="Segoe UI, Arial, sans-serif">
-      <g transform="translate(58 48)">
-        <rect width="362" height="32" rx="16" fill="#10291b" stroke="#336344" />
-        <path d="M18 20 C18 11 26 8 33 9 C32 17 27 23 18 20Z" fill="#9bd27c" />
-        <path d="M20 20 C24 16 27 13 31 10" fill="none" stroke="#d9e9b4" stroke-width="1.2" stroke-linecap="round" />
-        <text x="45" y="21" fill="#d7e7bd" font-size="11.5" font-weight="700" letter-spacing="1.55">FIELD NOTES // ML RESEARCH + ENGINEERING</text>
+      <g transform="translate(58 44)">
+        <path d="M0 13 C0 5 7 1 15 2 C14 10 9 15 0 13Z" fill="#a3d977" />
+        <path d="M2 13 C6 9 9 5 14 3" fill="none" stroke="#e3f2c7" stroke-width="1.1" stroke-linecap="round" />
+        <text x="27" y="13" fill="#9ca9b8" font-size="11.5" font-weight="700" letter-spacing="1.55">ML RESEARCH + ENGINEERING</text>
       </g>
 
-      <text x="58" y="151" fill="#f2f5e8" font-family="Georgia, Times New Roman, serif" font-size="67" font-weight="700" letter-spacing="-2.2">Karan Anchan</text>
-      <text x="60" y="194" fill="#b7c9ba" font-size="19.5">Reproduce the baseline. Follow the failure. Leave a clear trail.</text>
+      <text x="58" y="130" fill="#f8fafc" font-size="61" font-weight="760" letter-spacing="-2.4">Karan Anchan</text>
+      <text x="60" y="172" fill="#aeb8c6" font-size="19">Reproduce the baseline. Test the failure mode. Ship the result.</text>
 
-      <g transform="translate(60 222)">
-        <path d="M0 38 C54 4 106 60 162 29 S266 11 326 33 S431 58 492 20 S580 5 640 31" fill="none" stroke="#214733" stroke-width="8" stroke-linecap="round" />
-        <path d="M0 38 C54 4 106 60 162 29 S266 11 326 33 S431 58 492 20 S580 5 640 31" fill="none" stroke="url(#trail)" stroke-width="2.5" stroke-linecap="round" />
-        <g fill="#0a1b12" stroke="#a7d47f" stroke-width="2">
-          <circle cx="0" cy="38" r="5" />
-          <circle cx="162" cy="29" r="5" />
-          <circle cx="326" cy="33" r="5" />
-          <circle cx="492" cy="20" r="5" />
-          <circle cx="640" cy="31" r="5" />
-        </g>
-        <text x="0" y="70" fill="#77917f" font-size="10.5" letter-spacing="1.2">OBSERVE</text>
-        <text x="130" y="70" fill="#77917f" font-size="10.5" letter-spacing="1.2">REPRODUCE</text>
-        <text x="300" y="70" fill="#77917f" font-size="10.5" letter-spacing="1.2">MEASURE</text>
-        <text x="467" y="70" fill="#77917f" font-size="10.5" letter-spacing="1.2">DEPLOY</text>
-        <text x="595" y="70" fill="#77917f" font-size="10.5" letter-spacing="1.2">DOCUMENT</text>
+      <g transform="translate(60 204)">
+        <rect width="116" height="3" rx="1.5" fill="#a3d977" />
+        <rect x="126" width="116" height="3" rx="1.5" fill="#65c7f7" />
+        <rect x="252" width="116" height="3" rx="1.5" fill="#f7c65d" />
+        <rect x="378" width="116" height="3" rx="1.5" fill="#b7a6ff" />
       </g>
 
-      <g transform="translate(60 326)" font-size="11.5" font-weight="650" letter-spacing="0.75">
-        <rect width="206" height="34" rx="17" fill="#10281b" stroke="#31543c" />
-        <text x="18" y="22" fill="#d6dfc9">REINFORCEMENT LEARNING</text>
-        <rect x="220" width="188" height="34" rx="17" fill="#10281b" stroke="#31543c" />
-        <text x="239" y="22" fill="#d6dfc9">EFFICIENT INFERENCE</text>
-        <rect x="422" width="180" height="34" rx="17" fill="#10281b" stroke="#31543c" />
-        <text x="443" y="22" fill="#d6dfc9">RETRIEVAL SYSTEMS</text>
+      <g transform="translate(60 242)" font-size="11.5" font-weight="650" letter-spacing="0.65">
+        <circle cx="5" cy="5" r="5" fill="#a3d977" />
+        <text x="18" y="9" fill="#d5dbe4">REINFORCEMENT LEARNING</text>
+        <circle cx="224" cy="5" r="5" fill="#65c7f7" />
+        <text x="237" y="9" fill="#d5dbe4">EFFICIENT INFERENCE</text>
+        <circle cx="423" cy="5" r="5" fill="#b7a6ff" />
+        <text x="436" y="9" fill="#d5dbe4">RETRIEVAL SYSTEMS</text>
       </g>
 
-      <line x1="770" y1="46" x2="770" y2="344" stroke="#31543c" stroke-opacity="0.85" />
-      <text x="812" y="49" fill="#88a58e" font-size="10.5" font-weight="700" letter-spacing="1.75">SELECTED FIELD MEASUREMENTS</text>
+      <text x="60" y="300" fill="#667386" font-size="10.5" letter-spacing="1.4">FREIBURG · FIELD NOTES · MEASURED RESULTS</text>
 
-      <g transform="translate(812 71)">
-        <rect width="330" height="79" rx="14" fill="#10271a" stroke="#31593d" />
-        <rect width="5" height="79" rx="2.5" fill="#a8d27a" />
-        <text x="24" y="24" fill="#8fa896" font-size="10.5" font-weight="700" letter-spacing="1.35">PLOT 01 / RLPD</text>
-        <text x="24" y="58" fill="#f0f4e7" font-family="Georgia, Times New Roman, serif" font-size="29" font-weight="700">88 to 90%</text>
-        <text x="184" y="56" fill="#9eb2a3" font-size="12.5">of Minari v5 expert</text>
+      <line x1="752" y1="42" x2="752" y2="288" stroke="#2a3444" />
+      <text x="794" y="48" fill="#718095" font-size="10.5" font-weight="700" letter-spacing="1.65">SELECTED MEASUREMENTS</text>
+
+      <g transform="translate(794 76)">
+        <circle cx="5" cy="5" r="5" fill="#a3d977" />
+        <text x="20" y="9" fill="#93a0b0" font-size="10.5" font-weight="700" letter-spacing="1.3">RLPD</text>
+        <text x="0" y="53" fill="#f8fafc" font-size="30" font-weight="750">88 to 90%</text>
+        <text x="166" y="51" fill="#9ba8b8" font-size="12.5">of Minari v5 expert</text>
+        <line x1="0" y1="69" x2="348" y2="69" stroke="#273142" />
       </g>
 
-      <g transform="translate(812 161)">
-        <rect width="330" height="79" rx="14" fill="#10271a" stroke="#31593d" />
-        <rect width="5" height="79" rx="2.5" fill="#70cbb1" />
-        <text x="24" y="24" fill="#8fa896" font-size="10.5" font-weight="700" letter-spacing="1.35">PLOT 02 / EDGE INFERENCE</text>
-        <text x="24" y="58" fill="#f0f4e7" font-family="Georgia, Times New Roman, serif" font-size="29" font-weight="700">560 FPS</text>
-        <text x="166" y="56" fill="#9eb2a3" font-size="12.5">FP8 on RTX 5070</text>
+      <g transform="translate(794 157)">
+        <circle cx="5" cy="5" r="5" fill="#f7c65d" />
+        <text x="20" y="9" fill="#93a0b0" font-size="10.5" font-weight="700" letter-spacing="1.3">EDGE INFERENCE</text>
+        <text x="0" y="53" fill="#f8fafc" font-size="30" font-weight="750">560 FPS</text>
+        <text x="142" y="51" fill="#9ba8b8" font-size="12.5">FP8 on RTX 5070</text>
+        <line x1="0" y1="69" x2="348" y2="69" stroke="#273142" />
       </g>
 
-      <g transform="translate(812 251)">
-        <rect width="330" height="79" rx="14" fill="#10271a" stroke="#31593d" />
-        <rect width="5" height="79" rx="2.5" fill="#d0d88a" />
-        <text x="24" y="24" fill="#8fa896" font-size="10.5" font-weight="700" letter-spacing="1.35">PLOT 03 / RETRIEVAL</text>
-        <text x="24" y="58" fill="#f0f4e7" font-family="Georgia, Times New Roman, serif" font-size="29" font-weight="700">93.4%</text>
-        <text x="144" y="56" fill="#9eb2a3" font-size="12.5">mean groundedness</text>
+      <g transform="translate(794 238)">
+        <circle cx="5" cy="5" r="5" fill="#b7a6ff" />
+        <text x="20" y="9" fill="#93a0b0" font-size="10.5" font-weight="700" letter-spacing="1.3">RETRIEVAL SYSTEM</text>
+        <text x="0" y="53" fill="#f8fafc" font-size="30" font-weight="750">93.4%</text>
+        <text x="119" y="51" fill="#9ba8b8" font-size="12.5">mean groundedness</text>
       </g>
     </g>
 
-    <rect x="0.75" y="0.75" width="1198.5" height="388.5" rx="23.25" fill="none" stroke="#3a5f47" stroke-width="1.5" />
+    <rect x="0.75" y="0.75" width="1198.5" height="328.5" rx="21.25" fill="none" stroke="#2d3748" stroke-width="1.5" />
   </g>
 </svg>
