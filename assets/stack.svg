@@ -1,52 +1,55 @@
-<svg width="900" height="230" viewBox="0 0 900 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-labelledby="title desc">
+  <title id="title">Working stack</title>
+  <desc id="desc">Tools used for research, deployment, retrieval, and product engineering.</desc>
   <defs>
-    <linearGradient id="s" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="900" y2="0" spreadMethod="reflect">
-      <stop offset="0" stop-color="#c7f284"/><stop offset="0.25" stop-color="#67e8f9"/>
-      <stop offset="0.5" stop-color="#c4b5fd"/><stop offset="0.75" stop-color="#f9a8d4"/>
-      <stop offset="1" stop-color="#fbbf24"/>
-      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1800 0" dur="9s" repeatCount="indefinite"/>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" />
+      <stop offset="1" stop-color="#a3e635" />
     </linearGradient>
-    <clipPath id="sp"><rect width="900" height="230" rx="16"/></clipPath>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#94a3b8" opacity="0.08" />
+    </pattern>
   </defs>
-  <g clip-path="url(#sp)" font-family="'Courier New', monospace">
-    <rect width="900" height="230" fill="#09090b"/>
-    <ellipse cx="450" cy="250" rx="420" ry="120" fill="#c7f284" opacity="0.04"/>
+  <rect width="1200" height="270" rx="20" fill="#0b1324" />
+  <rect width="1200" height="270" rx="20" fill="url(#dots)" />
+  <rect x="42" y="36" width="1116" height="3" rx="1.5" fill="url(#accent)" />
 
-    <!-- column: core -->
-    <text x="40" y="42" font-size="13" font-weight="bold" letter-spacing="3" fill="#c7f284">CORE</text>
-    <g font-size="13" fill="#d4d4d8">
-      <text x="40" y="72">python</text><text x="40" y="96">pytorch</text><text x="40" y="120">c++ / sql</text><text x="40" y="144">typescript</text>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <g transform="translate(42 68)">
+      <text fill="#67e8f9" font-size="12" font-weight="750" letter-spacing="1.6">RESEARCH</text>
+      <text y="36" fill="#f8fafc" font-size="18" font-weight="680">PyTorch</text>
+      <text y="66" fill="#cbd5e1" font-size="14">Gymnasium · MuJoCo · Minari</text>
+      <text y="94" fill="#cbd5e1" font-size="14">Transformers · MONAI · W&amp;B</text>
+      <text y="128" fill="#64748b" font-size="12">training, ablations, multi-seed evaluation</text>
     </g>
-    <g fill="#c7f284">
-      <rect x="40" y="158" width="0" height="4" rx="2"><animate attributeName="width" from="0" to="150" dur="1.4s" fill="freeze"/></rect>
-    </g>
-    <text x="40" y="186" font-size="10" letter-spacing="1" fill="#71717a">confidence: high</text>
 
-    <!-- column: research -->
-    <text x="260" y="42" font-size="13" font-weight="bold" letter-spacing="3" fill="#67e8f9">RESEARCH</text>
-    <g font-size="13" fill="#d4d4d8">
-      <text x="260" y="72">transformers</text><text x="260" y="96">mujoco · gym</text><text x="260" y="120">w&amp;b · mlflow</text><text x="260" y="144">monai · peft</text>
+    <line x1="318" y1="68" x2="318" y2="222" stroke="#27364d" />
+    <g transform="translate(352 68)">
+      <text fill="#7dd3fc" font-size="12" font-weight="750" letter-spacing="1.6">DEPLOYMENT</text>
+      <text y="36" fill="#f8fafc" font-size="18" font-weight="680">ONNX · TensorRT</text>
+      <text y="66" fill="#cbd5e1" font-size="14">ONNX Runtime · WebGPU</text>
+      <text y="94" fill="#cbd5e1" font-size="14">NVML · GitHub Actions</text>
+      <text y="128" fill="#64748b" font-size="12">latency, throughput, power, client-side inference</text>
     </g>
-    <rect x="260" y="158" width="0" height="4" rx="2" fill="#67e8f9"><animate attributeName="width" from="0" to="132" dur="1.4s" begin="0.2s" fill="freeze"/></rect>
-    <text x="260" y="186" font-size="10" letter-spacing="1" fill="#71717a">confidence: high</text>
 
-    <!-- column: systems -->
-    <text x="480" y="42" font-size="13" font-weight="bold" letter-spacing="3" fill="#c4b5fd">SYSTEMS</text>
-    <g font-size="13" fill="#d4d4d8">
-      <text x="480" y="72">onnx · tensorrt</text><text x="480" y="96">docker · ci/cd</text><text x="480" y="120">webgpu</text><text x="480" y="144">cuda (learning)</text>
+    <line x1="626" y1="68" x2="626" y2="222" stroke="#27364d" />
+    <g transform="translate(660 68)">
+      <text fill="#86efac" font-size="12" font-weight="750" letter-spacing="1.6">RETRIEVAL</text>
+      <text y="36" fill="#f8fafc" font-size="18" font-weight="680">LangChain · ChromaDB</text>
+      <text y="66" fill="#cbd5e1" font-size="14">document pipelines · vector search</text>
+      <text y="94" fill="#cbd5e1" font-size="14">retrieval and groundedness evaluation</text>
+      <text y="128" fill="#64748b" font-size="12">production RAG over 5,000+ documents</text>
     </g>
-    <rect x="480" y="158" width="0" height="4" rx="2" fill="#c4b5fd"><animate attributeName="width" from="0" to="104" dur="1.4s" begin="0.4s" fill="freeze"/></rect>
-    <text x="480" y="186" font-size="10" letter-spacing="1" fill="#71717a">confidence: rising</text>
 
-    <!-- column: agents -->
-    <text x="700" y="42" font-size="13" font-weight="bold" letter-spacing="3" fill="#f9a8d4">AGENTS</text>
-    <g font-size="13" fill="#d4d4d8">
-      <text x="700" y="72">langchain</text><text x="700" y="96">chroma · qdrant</text><text x="700" y="120">n8n</text><text x="700" y="144">mcp (learning)</text>
+    <line x1="932" y1="68" x2="932" y2="222" stroke="#27364d" />
+    <g transform="translate(966 68)">
+      <text fill="#bef264" font-size="12" font-weight="750" letter-spacing="1.6">PRODUCT</text>
+      <text y="36" fill="#f8fafc" font-size="18" font-weight="680">Python · TypeScript</text>
+      <text y="66" fill="#cbd5e1" font-size="14">React · Next.js · Dexie</text>
+      <text y="94" fill="#cbd5e1" font-size="14">SQL · Supabase · PWA</text>
+      <text y="128" fill="#64748b" font-size="12">demos, offline-first apps, technical writing</text>
     </g>
-    <rect x="700" y="158" width="0" height="4" rx="2" fill="#f9a8d4"><animate attributeName="width" from="0" to="96" dur="1.4s" begin="0.6s" fill="freeze"/></rect>
-    <text x="700" y="186" font-size="10" letter-spacing="1" fill="#71717a">confidence: rising</text>
-
-    <rect x="40" y="205" width="820" height="1" fill="url(#s)" opacity="0.5"/>
-    <rect x="0.5" y="0.5" width="899" height="229" rx="16" stroke="#ffffff" stroke-opacity="0.12" fill="none"/>
   </g>
+
+  <rect x="0.75" y="0.75" width="1198.5" height="268.5" rx="19.25" fill="none" stroke="#334155" stroke-width="1.5" />
 </svg>

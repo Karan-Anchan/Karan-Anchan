@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210" role="img" aria-labelledby="title desc">
+  <title id="title">Research and engineering workflow</title>
+  <desc id="desc">Five stages: frame the question, reproduce the baseline, run controlled experiments, measure the system, and write the limits.</desc>
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" />
+      <stop offset="1" stop-color="#84cc16" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="210" rx="20" fill="#0b1324" />
+  <path d="M120 92H1080" stroke="#23324a" stroke-width="8" stroke-linecap="round" />
+  <path d="M120 92H1080" stroke="url(#line)" stroke-width="2" stroke-linecap="round" />
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" text-anchor="middle">
+    <g transform="translate(120 92)">
+      <circle r="25" fill="#10263a" stroke="#22d3ee" stroke-width="2" />
+      <text y="6" fill="#cffafe" font-size="16" font-weight="750">01</text>
+      <text y="58" fill="#f8fafc" font-size="14" font-weight="700">Frame the question</text>
+      <text y="80" fill="#64748b" font-size="12">metric, budget, failure mode</text>
+    </g>
+    <g transform="translate(360 92)">
+      <circle r="25" fill="#10263a" stroke="#38bdf8" stroke-width="2" />
+      <text y="6" fill="#e0f2fe" font-size="16" font-weight="750">02</text>
+      <text y="58" fill="#f8fafc" font-size="14" font-weight="700">Reproduce the baseline</text>
+      <text y="80" fill="#64748b" font-size="12">same data and evaluation</text>
+    </g>
+    <g transform="translate(600 92)">
+      <circle r="25" fill="#142a38" stroke="#4ade80" stroke-width="2" />
+      <text y="6" fill="#dcfce7" font-size="16" font-weight="750">03</text>
+      <text y="58" fill="#f8fafc" font-size="14" font-weight="700">Run controlled experiments</text>
+      <text y="80" fill="#64748b" font-size="12">seeds, ablations, provenance</text>
+    </g>
+    <g transform="translate(840 92)">
+      <circle r="25" fill="#1b2b32" stroke="#84cc16" stroke-width="2" />
+      <text y="6" fill="#ecfccb" font-size="16" font-weight="750">04</text>
+      <text y="58" fill="#f8fafc" font-size="14" font-weight="700">Measure the system</text>
+      <text y="80" fill="#64748b" font-size="12">latency, memory, power</text>
+    </g>
+    <g transform="translate(1080 92)">
+      <circle r="25" fill="#1b2b32" stroke="#a3e635" stroke-width="2" />
+      <text y="6" fill="#ecfccb" font-size="16" font-weight="750">05</text>
+      <text y="58" fill="#f8fafc" font-size="14" font-weight="700">Write the limits</text>
+      <text y="80" fill="#64748b" font-size="12">artifacts and open questions</text>
+    </g>
+  </g>
+  <rect x="0.75" y="0.75" width="1198.5" height="208.5" rx="19.25" fill="none" stroke="#334155" stroke-width="1.5" />
+</svg>
