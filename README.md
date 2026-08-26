@@ -1,7 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-adaptive-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="assets/header-adaptive-light.svg" />
-  <img src="assets/header-adaptive-light.svg" width="100%" alt="Karan Anchan, machine learning research and engineering with selected project measurements" />
+  <img src="assets/header-adaptive-light.svg" width="100%" alt="Karan Anchan, M.Sc. Computer Science student focused on machine learning research and engineering" />
 </picture>
 
 <p align="center">
@@ -12,7 +12,7 @@
   <a href="mailto:kar.anchan02@gmail.com">Email</a>
 </p>
 
-I am an M.Sc. Computer Science student at the University of Freiburg, focused on reinforcement learning, efficient model inference, and retrieval systems. I like projects with a clear question and results that other people can reproduce and inspect.
+I am an M.Sc. Computer Science student at the University of Freiburg, focused on reinforcement learning, efficient model inference, language-model systems, and retrieval. I like projects with a clear question and results that other people can reproduce and inspect.
 
 Outside research, I love photography, especially nature, animals, and landscapes. Photography makes me slow down and pay attention, which is part of why the field-note style of this profile feels like me.
 
@@ -44,14 +44,14 @@ Outside research, I love photography, especially nature, animals, and landscapes
 | Project | What I built or measured | State |
 |---|---|---|
 | [English to Hindi Transformer](https://github.com/Karan-Anchan/en-hi-nmt-transformer) | A 43M parameter, 6-layer Transformer built directly in PyTorch and trained on 500k Samanantar pairs. Beam search reached 16.93 SacreBLEU and 41.58 chrF++ on 500 frozen test pairs, but cost 9.3x the latency. | Complete |
-| [Mamba and attention hybrid LM](https://github.com/Karan-Anchan/mamba-hybrid-lm) | A roughly 50M parameter ratio study at matched tokens seen. The reduced-scale 1:7 preview leads at 102.4 validation perplexity; inference speed and KV-cache measurements are still open. | In progress |
+| [Mamba and attention hybrid LM](https://github.com/Karan-Anchan/mamba-hybrid-lm) | Three 52–54M-parameter variants trained on 700M matched tokens each. The 1:3 model reached validation perplexity 26.301 and 52.32 tok/s; 1:15 cut logical state 66.3% at 8K for +0.212 perplexity. [Showcase](https://karan-anchan.github.io/mamba-hybrid-lm-showcase/) | Core study complete · final report open |
 | [UNETR 3D abdomen segmentation](https://github.com/Karan-Anchan/Unetr_3D_Abdomen_Segmentation) | A MONAI pipeline for 14-class CT segmentation with resampling, balanced 128³ crops, and sliding-window inference. Validation Dice was 0.8027 on one split. | Complete |
 | [Arise](https://github.com/Karan-Anchan/arise) | An offline-first fitness RPG built with React 19, TypeScript, Dexie, and optional Supabase sync. Training history drives XP, quests, levels, and progression. | v1 complete |
 | [RL foundations](https://github.com/Karan-Anchan/Windy_GridWorld_Sim) | NumPy implementations of [TD control](https://github.com/Karan-Anchan/Windy_GridWorld_Sim), [value iteration](https://github.com/Karan-Anchan/MDP_Optimal_Grid_Sim), and the [10-armed testbed](https://github.com/Karan-Anchan/10_Arm_Testbed). | Complete |
 
 ## Current focus
 
-I am finishing the full Mamba ratio study and checking whether its perplexity result survives the measurements that matter at inference: tokens per second and KV-cache growth with context. Alongside that, my Freiburg coursework currently covers Bayesian hyperparameter optimization and multi-criteria optimization.
+I am writing the final report for the Mamba ratio study and turning its negative long-context result—3/15 registered needles retrieved by every ratio—into the next experiment. Alongside that, my Freiburg coursework covers Bayesian hyperparameter optimization and multi-criteria optimization.
 
 ## Background
 
@@ -69,7 +69,7 @@ I am finishing the full Mamba ratio study and checking whether its perplexity re
   <img src="assets/method-light.svg" width="100%" alt="A five-step workflow from defining the question through documenting the limits" />
 </picture>
 
-My repositories keep the result next to the conditions that produced it: configs, seeds, evaluation artifacts, hardware, and known limitations. Preview runs stay labeled as previews. Single-split validation stays labeled as validation.
+My repositories keep the result next to the conditions that produced it: configs, seeds, evaluation artifacts, hardware, and known limitations. Historical previews stay separate from canonical runs; single-split validation stays labeled as validation.
 
 ## Working stack
 
